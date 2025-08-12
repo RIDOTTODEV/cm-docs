@@ -36,8 +36,8 @@ docs:
   - title: "Add On"
     url: /addon/
     children:
-      - title: "Özellikler"
-        url: /addon/ozellikler/
+      - title: "In-out Report"
+        url: /addon/in-out-report/
       - title: "Kurulum"
         url: /addon/kurulum/
 
