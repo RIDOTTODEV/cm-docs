@@ -1,6 +1,6 @@
 main:
   - title: "Ridotto"
-    url: /ridotto/
+    # url: /ridotto/
     children:
       - title: "Kurulum"
         url: /ridotto/kurulum/
