@@ -8,8 +8,8 @@ permalink: /add-on/in-out-report/
 
 
 ## In-Out Player Report Hesabı :
-<font size=”2”>
- - SL Result : Slot Won - (Slot Turnover + Slot Jackpot) 
+
+ -  SL Result : Slot Won - (Slot Turnover + Slot Jackpot)  
  - LG Drop : Kasa Plaque + Masa Cash
  - LG Cashout : Kasada yapılan Cash ve ya CC; cashout/chip out işlemleri toplamı
  - LG Result : LG Oyun Result (Masa girişler - masa çıkış)
@@ -44,5 +44,3 @@ permalink: /add-on/in-out-report/
  - 
 
  - LG Game Result : masalara giriş-çıkışları üzerinden hesaplanan oyun kar/zararı 
-
- </font>
