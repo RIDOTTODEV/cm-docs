@@ -14,8 +14,8 @@ main:
     url: /pos/
   - title: "Attendant"
     url: /attendant/
-#  - title: "Posts"
-#    url: /posts/
+  - title: "Posts"
+    url: /posts/
   - title: "Categories"
     url: /categories/
   - title: "Tags"
