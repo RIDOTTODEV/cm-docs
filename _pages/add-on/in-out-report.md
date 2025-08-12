@@ -3,6 +3,7 @@ title: "In-out Report"
 parent: "Add-on"
 layout: single
 nav_order: 1
+permalink: /add-on/in-out-report/
 ---
 
 

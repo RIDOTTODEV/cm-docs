@@ -8,6 +8,11 @@ main:
         url: /ridotto/ozellikler/
   - title: "Add On"
     url: /add-on/
+    children:
+      - title: "In-out Report"
+        url: /add-on/in-out-report/
+      - title: "Kurulum"
+        url: /add-on/kurulum/
   - title: "Inspector"
     url: /inspector/
   - title: "POS"
@@ -34,12 +39,12 @@ docs:
         url: /ridotto/kullanim/
 
   - title: "Add On"
-    url: /addon/
+    url: /add-on/
     children:
       - title: "In-out Report"
-        url: /addon/in-out-report/
+        url: /add-on/in-out-report/
       - title: "Kurulum"
-        url: /addon/kurulum/
+        url: /add-on/kurulum/
 
   - title: "Inspector"
     url: /inspector/
