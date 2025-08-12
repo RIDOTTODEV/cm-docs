@@ -1,6 +1,6 @@
 main:
   - title: "Ridotto"
-    # url: /ridotto/
+    url: /ridotto/
     children:
       - title: "Kurulum"
         url: /ridotto/kurulum/
@@ -22,3 +22,39 @@ main:
     url: /tags/
   - title: "About"
     url: /about/
+
+
+docs:
+  - title: "Ridotto"
+    url: /ridotto/
+    children:
+      - title: "Kurulum"
+        url: /ridotto/kurulum/
+      - title: "Kullanım"
+        url: /ridotto/kullanim/
+
+  - title: "Add On"
+    url: /addon/
+    children:
+      - title: "Özellikler"
+        url: /addon/ozellikler/
+      - title: "Kurulum"
+        url: /addon/kurulum/
+
+  - title: "Inspector"
+    url: /inspector/
+    children:
+      - title: "Raporlar"
+        url: /inspector/raporlar/
+
+  - title: "POS"
+    url: /pos/
+    children:
+      - title: "Yazıcı Ayarları"
+        url: /pos/yazici-ayarlari/
+
+  - title: "Attendant"
+    url: /attendant/
+    children:
+      - title: "Kullanıcı Yönetimi"
+        url: /attendant/kullanici-yonetimi/
