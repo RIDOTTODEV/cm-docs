@@ -1,26 +1,28 @@
 main:
-  - title: "Ridotto"
+  # - title: "Ridotto"
+  #   url: /ridotto/
+  #   children:
+  #     - title: "Kurulum"
+  #       url: /ridotto/kurulum/
+  #     - title: "Özellikler"
+  #       url: /ridotto/ozellikler/
+  # - title: "Add On"
+  #   url: /add-on/
+  #   children:
+  #     - title: "Cage Operations"
+  #       url: /add-on/cage-operations/
+  #     - title: "In-out Report"
+  #       url: /add-on/in-out-report/
+  # - title: "Inspector"
+  #   url: /inspector/
+  # - title: "POS"
+  #   url: /pos/
+  # - title: "Attendant"
+  #   url: /attendant/
+  # - title: "Posts"
+  #   url: /posts/
+  - title: "Get Started"
     url: /ridotto/
-    children:
-      - title: "Kurulum"
-        url: /ridotto/kurulum/
-      - title: "Özellikler"
-        url: /ridotto/ozellikler/
-  - title: "Add On"
-    url: /add-on/
-    children:
-      - title: "In-out Report"
-        url: /add-on/in-out-report/
-      - title: "Kurulum"
-        url: /add-on/kurulum/
-  - title: "Inspector"
-    url: /inspector/
-  - title: "POS"
-    url: /pos/
-  - title: "Attendant"
-    url: /attendant/
-  - title: "Posts"
-    url: /posts/
   - title: "Categories"
     url: /categories/
   - title: "Tags"
@@ -41,11 +43,12 @@ docs:
   - title: "Add On"
     url: /add-on/
     children:
+      - title: "Cage Operations"
+        url: /add-on/cage-operations/
+      - title: "Player Operations"
+        url: /add-on/player-operations/
       - title: "In-out Report"
         url: /add-on/in-out-report/
-      - title: "Kurulum"
-        url: /add-on/kurulum/
-
   - title: "Inspector"
     url: /inspector/
     children:

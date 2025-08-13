@@ -54,6 +54,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-last-modified-at
 
 author:
   name   : "Support"
@@ -97,6 +98,9 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
+      show_tags: true
+      show_categories: true
   # _pages
   # - scope:
   #     path: "_pages"
