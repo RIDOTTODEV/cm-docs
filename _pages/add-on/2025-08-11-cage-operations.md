@@ -6,6 +6,8 @@ nav_order: 1
 permalink: /add-on/cage-operations/
 toc: true
 toc_sticky: true
+date: 2025-08-13
+last_modified_at: 2025-08-13T12:00:00+03:00
 categories:
   - Add-on
 tags:

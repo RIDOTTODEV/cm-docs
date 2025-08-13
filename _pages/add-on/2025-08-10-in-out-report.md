@@ -4,6 +4,7 @@ parent: "Add-on"
 layout: single
 nav_order: 3
 permalink: /add-on/in-out-report/
+read_time: true
 categories:
   - Add-on
 tags:
