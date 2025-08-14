@@ -37,8 +37,8 @@ docs:
     children:
       - title: "Kurulum"
         url: /ridotto/kurulum/
-      - title: "Kullanım"
-        url: /ridotto/kullanim/
+      - title: "Özellikler"
+        url: /ridotto/ozellikler/
 
   - title: "Add On"
     url: /add-on/
@@ -58,11 +58,13 @@ docs:
   - title: "POS"
     url: /pos/
     children:
-      - title: "Yazıcı Ayarları"
-        url: /pos/yazici-ayarlari/
+      - title: "Terminal"
+        url: /pos/terminal/
+      - title: "Panel"
+        url: /pos/panel/
 
   - title: "Attendant"
     url: /attendant/
-    children:
-      - title: "Kullanıcı Yönetimi"
-        url: /attendant/kullanici-yonetimi/
+    # children:
+    #   - title: "Kullanıcı Yönetimi"
+    #     url: /attendant/kullanici-yonetimi/
