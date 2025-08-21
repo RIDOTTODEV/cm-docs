@@ -39,6 +39,8 @@ docs:
         url: /ridotto/kurulum/
       - title: "Özellikler"
         url: /ridotto/ozellikler/
+      - title: "Gün Değişimi"
+        url: /ridotto/changegd/
 
   - title: "Add On"
     url: /add-on/
