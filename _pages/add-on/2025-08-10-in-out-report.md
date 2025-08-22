@@ -40,7 +40,7 @@ tags:
 - Slot Turnover : slot total bet
 
 
-- Slot Drop : makinelere yapılan cash girişleri
+- Slot Drop : makinelere yapılan cash girişleri + kasadan slot için yapılan cash girişleri
 - Count : otel konaklama gün sayısı
 - Played Days : oyun oynadığı gün sayısı
 - Cashable Account : cashless hesapları toplamı
