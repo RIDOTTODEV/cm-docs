@@ -34,10 +34,10 @@ Belirtilen tarih aralığında oyuncuları kategori (PlayerCategory) bazında gr
     - Formül (kategori için): `Σ(SlotResult)`
 - **TotalResult**: Toplam oyun sonucu.
     - Formül: `TotalLgResult + TotalSlotResult`
-- **GamingExpense**: Toplam oyun harcaması (belge dışı).
+- **GamingExpense**: Toplam oyun harcaması(Disc+com vb.)
     - Kaynak: `GetPlayerExpenseAndDocument` → oyuncu bazında `TotalExpense`
     - Formül (kategori için): `Σ(TotalExpense)`
-- **Documents**: Oyuncularla ilişkili belge toplamları (örn. fiş/fatura vb.).
+- **Documents**: Oyuncularla ilişkili belge toplamları (çek+senet vb.).
     - Kaynak: `GetPlayerExpenseAndDocument` → oyuncu bazında `TotalDocuments`
     - Formül (kategori için): `Σ(TotalDocuments)`
 - **GamingLoss**: Harcama dahil oyun kaybı göstergesi.
