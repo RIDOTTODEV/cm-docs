@@ -24,37 +24,37 @@ tags:
 
 - **PlayerId / PlayerName / PlayerCategory / PlayerClass**: Oyuncu kimlik ve sınıflandırma bilgileri.
 - **Credit**: Net kredi.
-  - Formül: `Σ(CreditOut) - Σ(CreditIn)`
+  - Formül: `CreditOut toplamı - CreditIn toplamı`
   - Açıklama: Kredi geri ödemeleri toplamından kredi açılışları toplamı çıkarılır.
 - **Deposit**: Net deposit.
-  - Formül: `Σ(DepositOut) - Σ(DepositIn)`
+  - Formül: `DepositOut toplamı - DepositIn toplamı`
   - Açıklama: Deposit çıkışları toplamından deposit girişleri toplamı çıkarılır.
 - **CreditCard**: Net kredi kartı.
-  - Formül: `Σ(CreditCardOut) - Σ(CreditCardIn)`
+  - Formül: `CreditCardOut toplamı - CreditCardIn toplamı`
   - Açıklama: Kredi kartı çıkışları toplamından kredi kartı girişleri toplamı çıkarılır.
 - **Cash**: Net nakit.
-  - Formül: `Σ(CashOut) - Σ(CashIn)`
+  - Formül: `CashOut toplamı - CashIn toplamı`
   - Açıklama: Nakit çıkışları toplamından nakit girişleri toplamı çıkarılır.
 - **TableDrop**: Masalardaki toplam drop.
-  - Formül: `Σ(TableDrop)`
+  - Formül: `TableDrop toplamı`
   - Açıklama: Tüm günlerdeki table drop değerleri toplanır.
 - **SlotResult**: Slot toplam sonuç.
-  - Formül: `Σ(SlotResult)`
+  - Formül: `SlotResult toplamı`
   - Açıklama: Tüm günlerdeki slot result değerleri toplanır.
 - **ComplimentaryLiveGame**: Net LG complimentary.
-  - Formül: `Σ(ComplimentaryLiveGameOut) - Σ(ComplimentaryLiveGameIn)`
+  - Formül: `ComplimentaryLiveGameOut toplamı - ComplimentaryLiveGameIn toplamı`
   - Açıklama: LG complimentary çıkışları toplamından girişleri toplamı çıkarılır.
 - **ComplimentarySlot**: Net Slot complimentary.
-  - Formül: `Σ(ComplimentarySlotOut) - Σ(ComplimentarySlotIn)`
+  - Formül: `ComplimentarySlotOut toplamı - ComplimentarySlotIn toplamı`
   - Açıklama: Slot complimentary çıkışları toplamından girişleri toplamı çıkarılır.
 - **PlaqueDrop**: LG masalarında plaque drop toplamı.
-  - Formül: `Σ(LgChipDrop)`
+  - Formül: `LgChipDrop toplamı`
   - Açıklama: Tüm günlerdeki plaque drop değerleri toplanır.
 - **LgTotalOut**: LG tarafındaki toplam out.
-  - Formül: `Σ(LgTotalOut)`
+  - Formül: `LgTotalOut toplamı`
   - Açıklama: Tüm günlerdeki LG total out değerleri toplanır.
 - **LgResult**: LG oyun sonucu.
-  - Formül: `Σ(LgResult)`
+  - Formül: `LgResult toplamı`
   - Açıklama: Tüm günlerdeki LG result değerleri toplanır.
 
 ---

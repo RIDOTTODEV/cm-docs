@@ -25,21 +25,21 @@ Belirtilen tarih aralığında oyuncuları kategori (PlayerCategory) bazında gr
 - **PlayerCategory**: Grup anahtarı. Oyuncunun kategorisi (ör. Local/Foreign vb.).
 - **PlayerCount**: İlgili kategorideki ziyaret sayıları toplamı.
     - Kaynak: `GetPlayerVisitCount` → oyuncu bazında `Count`
-    - Formül (kategori için): `Σ(Count)`
+    - Formül (kategori için): `Count toplamı`
 - **TotalLgResult**: LG tarafındaki toplam sonuç.
     - Kaynak: `GetLgInfoForNetCash` → oyuncu bazında `LgResult`
-    - Formül (kategori için): `Σ(LgResult)`
+    - Formül (kategori için): `LgResult toplamı`
 - **TotalSlotResult**: Slot tarafındaki toplam sonuç.
     - Kaynak: `GetSlotInfoForNetCash` → oyuncu bazında `SlotResult`
-    - Formül (kategori için): `Σ(SlotResult)`
+    - Formül (kategori için): `SlotResult toplamı`
 - **TotalResult**: Toplam oyun sonucu.
     - Formül: `TotalLgResult + TotalSlotResult`
 - **GamingExpense**: Toplam oyun harcaması(Disc+com vb.)
     - Kaynak: `GetPlayerExpenseAndDocument` → oyuncu bazında `TotalExpense`
-    - Formül (kategori için): `Σ(TotalExpense)`
+    - Formül (kategori için): `TotalExpense toplamı`
 - **Documents**: Oyuncularla ilişkili belge toplamları (çek+senet vb.).
     - Kaynak: `GetPlayerExpenseAndDocument` → oyuncu bazında `TotalDocuments`
-    - Formül (kategori için): `Σ(TotalDocuments)`
+    - Formül (kategori için): `TotalDocuments toplamı`
 - **GamingLoss**: Harcama dahil oyun kaybı göstergesi.
     - Formül: `TotalLgResult + TotalSlotResult + GamingExpense`
 - **NetCash**: Net nakit.
