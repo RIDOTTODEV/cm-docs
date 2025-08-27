@@ -1,6 +1,6 @@
 ---
 title: "In-out Filtered Report"
-parent: "Add-on"
+parent: "In/Out Reports"
 layout: single
 nav_order: 4
 permalink: /add-on/in-out-filtered-report/
@@ -47,56 +47,3 @@ Belirtilen tarih aralığı için oyuncu bazında Slot ve Live Game (LG) veriler
 
 ---
 
-## Girdi
-
-- **StartDate / EndDate**: Oyun verilerinin toplandığı tarih aralığı.
-- **BalanceCurrencyId**: Tutarların çevirildiği para birimi.
-Örnek istek modeli:
-
-```json
-{
-  "startDate": "2025-01-01",
-  "endDate": "2025-01-31",
-  "balanceCurrencyId": 1
-}
-```
-
----
-
-## Çıktı
-
-- Her kayıt bir oyuncunun özet verilerini içerir. Çıktı, `ReportFilteredOutput` listesi olarak döner.
-
-Örnek cevap şeması:
-
-```json
-[
-  {
-    "playerId": 1,
-    "playerName": "Ridotto Admin",
-    "playerCategory": "Local",
-    "playerClass": "A",
-    "playerCountry": "Türkiye",
-    "rating": "A",
-    "topRating": "A+",
-    "totalDrop": 10000.0,
-    "totalResult": -750.0,
-    "avgDrop": 500.0,
-    "avgResult": -37.5,
-    "totalLgResult": -250.0,
-    "totalSlotResult": -500.0,
-    "lgPlayDays": 4,
-    "slotPlayDays": 20,
-    "firstVisitDate": "2025-01-03",
-    "lastVisitDate": "2025-01-29"
-  }
-]
-```
-
----
-
-## Notlar
-
-- `AvgDrop` ve `AvgResult` hesaplarında 0'a bölmeye karşı koruma vardır; `SlotPlayDays` 0 ise 1 kabul edilir.
-- Döviz çevrimleri, `BalanceCurrencyId` ye göre yapılmıştır.
-- LG ve Slot metrikleri birleştirilirken tarih filtreleri `StartDate`–`EndDate` aralığına sıkı şekilde uygulanır.
