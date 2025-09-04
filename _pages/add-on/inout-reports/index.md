@@ -17,7 +17,7 @@ Bu bölümde In/Out ile ilgili raporları bulabilirsiniz.
 
 ### Mevcut Raporlar
 
-- **[In-out Report](/add-on/in-out-report/)** - Temel In/Out oyuncu raporu
+- **[In-out Report](/cm-docs/add-on/in-out-report/)** - Temel In/Out oyuncu raporu
 - **[In-out Filtered Report](/add-on/in-out-filtered-report/)** - Filtrelenmiş In/Out raporu  
 - **[In-out Detailed In/Out Report](/add-on/in-out-detailed-inout-report/)** - Detaylı In/Out raporu
 - **[In-out Detailed Net Report](/add-on/in-out-detailed-net-report/)** - Detaylı Net raporu
