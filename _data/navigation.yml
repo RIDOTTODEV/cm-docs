@@ -50,6 +50,7 @@ docs:
       - title: "Player Operations"
         url: /add-on/player-operations/
       - title: "In/Out Reports"
+        url: "#"
         children:
           - title: "In-out Report"
             url: /add-on/in-out-report/
