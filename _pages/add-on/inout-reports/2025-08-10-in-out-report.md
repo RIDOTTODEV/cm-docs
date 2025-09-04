@@ -10,6 +10,8 @@ categories:
 tags:
   - Cage
   - Player
+sidebar:
+  nav: "inout-reports"
 ---
 
 

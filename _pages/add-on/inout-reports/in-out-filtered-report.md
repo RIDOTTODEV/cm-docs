@@ -12,6 +12,8 @@ categories:
 tags:
   - Report
   - Player
+sidebar:
+  nav: "inout-reports"
 ---
 
 ## In-out Filtered Report
