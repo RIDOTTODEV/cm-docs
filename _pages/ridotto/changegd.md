@@ -37,7 +37,7 @@ Sistemde raporlama ve hesaplama yapılırken seçilen tarih, bu oyun günü kar�
 - Slot makinelerinin bill acceptor box'ları değişimi yapılır.
 - `Slots` menüsünden makineler **tek tek** veya **toplu** olarak yeni güne geçirilir.
 - Geçirilen makinede yapılan tüm kredi açma/silme ve oyun kayıtları artık **yeni güne** işlenir.
-- `Slot Count Form` üzerinden makinelerin bill acceptor box sayımları girilir.
+- GamingDate menüsünden önceki günün satırının açılır menüsünden `Slot Count Form` açılarak makinelerin bill acceptor box sayımları girilir.
   - **Beklenen = Sayım** → değerler **yeşil** görünür.
   - **Fark var** → değerler **turuncu** görünür.
 
