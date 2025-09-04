@@ -12,5 +12,3 @@ has_children: true
 ## In/Out Reports
 
 Bu bölümde In/Out ile ilgili raporları bulabilirsiniz.
-
-{% include page__children.html %}
