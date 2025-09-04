@@ -12,8 +12,6 @@ categories:
 tags:
   - Report
   - Player
-sidebar:
-  nav: "inout-reports"
 ---
 
 ## In-out Net Cash Summary Report
