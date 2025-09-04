@@ -1,6 +1,6 @@
 ---
 title: "In-out Report"
-parent: "Add-on"
+parent: "In/Out Reports"
 layout: single
 nav_order: 3
 permalink: /add-on/in-out-report/
@@ -10,6 +10,8 @@ categories:
 tags:
   - Cage
   - Player
+sidebar:
+  nav: "inout-reports"
 ---
 
 

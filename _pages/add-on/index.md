@@ -2,7 +2,6 @@
 title: "Add-on"
 layout: single
 permalink: /add-on/
-has_children: true
 nav_order: 1
 ---
 

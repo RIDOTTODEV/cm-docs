@@ -49,8 +49,19 @@ docs:
         url: /add-on/cage-operations/
       - title: "Player Operations"
         url: /add-on/player-operations/
-      - title: "In-out Report"
-        url: /add-on/in-out-report/
+      - title: "In/Out Reports"
+        url: /add-on/inout-reports/
+        children:
+          - title: "In-out Report"
+            url: /add-on/in-out-report/
+          - title: "In-out Filtered Report"
+            url: /add-on/in-out-filtered-report/
+          - title: "In-out Detailed In/Out Report"
+            url: /add-on/in-out-detailed-inout-report/
+          - title: "In-out Detailed Net Report"
+            url: /add-on/in-out-detailed-net-report/
+          - title: "In-out Net Cash Summary Report"
+            url: /add-on/in-out-net-cash-summary-report/
   - title: "Inspector"
     url: /inspector/
     children:
@@ -70,3 +81,17 @@ docs:
     # children:
     #   - title: "Kullanıcı Yönetimi"
     #     url: /attendant/kullanici-yonetimi/
+
+inout-reports:
+  - title: "In/Out Reports"
+    children:
+      - title: "In-out Report"
+        url: /add-on/in-out-report/
+      - title: "In-out Filtered Report"
+        url: /add-on/in-out-filtered-report/
+      - title: "In-out Detailed In/Out Report"
+        url: /add-on/in-out-detailed-inout-report/
+      - title: "In-out Detailed Net Report"
+        url: /add-on/in-out-detailed-net-report/
+      - title: "In-out Net Cash Summary Report"
+        url: /add-on/in-out-net-cash-summary-report/
