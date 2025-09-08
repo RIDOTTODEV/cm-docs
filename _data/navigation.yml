@@ -49,6 +49,13 @@ docs:
         url: /add-on/cage-operations/
       - title: "Player Operations"
         url: /add-on/player-operations/
+        children:
+          - title: "Customer Information"
+            url: /add-on/operations/customer-information/
+          - title: "Portfolio Management"
+            url: /add-on/operations/portfolio-management/
+          - title: "Blacklist Report"
+            url: /add-on/operations/blacklist-report/
       - title: "In/Out Reports Overview"
         url: /add-on/inout-reports/
       - title: "In-out Report"
