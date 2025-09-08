@@ -1,6 +1,6 @@
 ---
 title: "Customer Information"
-permalink: /add-on/operations/customer-information/
+permalink: /operations/customer-information/
 excerpt: "Player information management and operations in Ridotto system"
 last_modified_at: 2025-01-27
 toc: true

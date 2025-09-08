@@ -1,6 +1,6 @@
 ---
 title: "Portfolio Management"
-permalink: /add-on/operations/portfolio-management/
+permalink: /operations/portfolio-management/
 excerpt: "Player portfolio management and filtering system in Ridotto"
 last_modified_at: 2025-01-27
 toc: true

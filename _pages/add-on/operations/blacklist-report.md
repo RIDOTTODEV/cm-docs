@@ -1,6 +1,6 @@
 ---
 title: "Black List Report"
-permalink: /add-on/operations/blacklist-report/
+permalink: /operations/blacklist-report/
 excerpt: "Player blacklist management and tracking system in Ridotto"
 last_modified_at: 2025-01-27
 toc: true

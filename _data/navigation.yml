@@ -49,13 +49,6 @@ docs:
         url: /add-on/cage-operations/
       - title: "Player Operations"
         url: /add-on/player-operations/
-        children:
-          - title: "Customer Information"
-            url: /add-on/operations/customer-information/
-          - title: "Portfolio Management"
-            url: /add-on/operations/portfolio-management/
-          - title: "Blacklist Report"
-            url: /add-on/operations/blacklist-report/
       - title: "In/Out Reports Overview"
         url: /add-on/inout-reports/
       - title: "In-out Report"
@@ -87,4 +80,14 @@ docs:
     # children:
     #   - title: "Kullanıcı Yönetimi"
     #     url: /attendant/kullanici-yonetimi/
+
+  - title: "Operations"
+    url: /operations/
+    children:
+      - title: "Customer Information"
+        url: /operations/customer-information/
+      - title: "Portfolio Management"
+        url: /operations/portfolio-management/
+      - title: "Blacklist Report"
+        url: /operations/blacklist-report/
 
