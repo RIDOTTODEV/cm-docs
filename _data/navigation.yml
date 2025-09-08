@@ -42,6 +42,15 @@ docs:
       - title: "Gün Değişimi"
         url: /ridotto/changegd/
 
+  - title: "Operations"
+    url: /operations/
+    children:
+      - title: "Customer Information"
+        url: /operations/customer-information/
+      - title: "Portfolio Management"
+        url: /operations/portfolio-management/
+      - title: "Blacklist Report"
+        url: /operations/blacklist-report/
   - title: "Add On"
     url: /add-on/
     children:
@@ -81,13 +90,5 @@ docs:
     #   - title: "Kullanıcı Yönetimi"
     #     url: /attendant/kullanici-yonetimi/
 
-  - title: "Operations"
-    url: /operations/
-    children:
-      - title: "Customer Information"
-        url: /operations/customer-information/
-      - title: "Portfolio Management"
-        url: /operations/portfolio-management/
-      - title: "Blacklist Report"
-        url: /operations/blacklist-report/
+  
 
