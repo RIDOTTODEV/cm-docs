@@ -51,6 +51,15 @@ docs:
         url: /operations/portfolio-management/
       - title: "Blacklist Report"
         url: /operations/blacklist-report/
+      - title: "Correction Infos Report"
+        url: /operations/correction-infos-report/
+      - title: "Player Lookup Audit Logs Report"
+        url: /operations/player-lookup-audit-logs-report/
+  - title: "Guest Operations"
+    url: /add-on/guest-operations/
+    children:
+      - title: "Hotel Guest List"
+        url: /add-on/guest-operations/hotel-guest-list/
   - title: "Add On"
     url: /add-on/
     children:
