@@ -8,7 +8,9 @@ toc: true
 
 # Portfolio Management
 
-![img_1.png](img_1.png)
+<a href="img_1.png" data-lightbox="portfolio-management" data-title="Portfolio Management Ana Ekranı">
+  <img src="img_1.png" alt="Portfolio Management" style="cursor: pointer;">
+</a>
 
 Portfolio Management sayfası, oyuncunun rating ve oyun result değerlerine göre kapsamlı bir arayüz sunar. Bu sayfa ile oyuncuları çeşitli kriterlere göre filtreleyebilir Excel formatında dışa aktarabilirsiniz.
 

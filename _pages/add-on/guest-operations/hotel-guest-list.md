@@ -7,7 +7,9 @@ sidebar:
 ---
 
 # Hotel Guest List
-![img.png](img.png)
+<a href="img.png" data-lightbox="hotel-guest-list" data-title="Hotel Guest List Ana Ekranı">
+  <img src="img.png" alt="Hotel Guest List" style="cursor: pointer;">
+</a>
 
 Bu ekranda otele giriş yapan tüm misafirlerin detaylı bilgileri listelenir. Misafirler hakkında check-in/check-out bilgileri, oda detayları, ücretlendirme ve diğer operasyonel bilgiler görüntülenebilir.
 
@@ -47,12 +49,14 @@ Bu ekranda otele giriş yapan tüm misafirlerin detaylı bilgileri listelenir. M
 
 ## Actions
 
-- ![img_1.png](img_1.png) : Reservasyon bilgilerini güncellemek için kullanılır.
-- ![img_3.png](img_3.png) : Reservasyon kaydının kopyasını oluşturmak için kullanılır
-- ![img_4.png](img_4.png) : Reservasyon kaydını silmek için kullanılır.
+- <a href="img_1.png" data-lightbox="hotel-guest-list" data-title="Güncelleme Butonu"><img src="img_1.png" alt="Güncelleme" style="cursor: pointer; width: 24px; height: 24px;"></a> : Reservasyon bilgilerini güncellemek için kullanılır.
+- <a href="img_3.png" data-lightbox="hotel-guest-list" data-title="Kopyalama Butonu"><img src="img_3.png" alt="Kopyalama" style="cursor: pointer; width: 24px; height: 24px;"></a> : Reservasyon kaydının kopyasını oluşturmak için kullanılır
+- <a href="img_4.png" data-lightbox="hotel-guest-list" data-title="Silme Butonu"><img src="img_4.png" alt="Silme" style="cursor: pointer; width: 24px; height: 24px;"></a> : Reservasyon kaydını silmek için kullanılır.
 
 ## Setting Butonu
-![img_5.png](img_5.png)
+<a href="img_5.png" data-lightbox="hotel-guest-list" data-title="Setting Butonu">
+  <img src="img_5.png" alt="Setting Butonu" style="cursor: pointer;">
+</a>
 
 Setting butonu ile otomatik expense oluşturma ayarları yapılır:
 
@@ -71,7 +75,9 @@ Setting butonu ile otomatik expense oluşturma ayarları yapılır:
 - Bu ayar ile bu expense'in hangi expense türünde girileceği seçilir
 
 ## Reservasyon Ekleme (Create Butonu)
-![img_6.png](img_6.png)
+<a href="img_6.png" data-lightbox="hotel-guest-list" data-title="Reservasyon Ekleme Formu">
+  <img src="img_6.png" alt="Reservasyon Ekleme Formu" style="cursor: pointer;">
+</a>
 
 Create butonu ile yeni rezervasyon oluşturma formunda aşağıdaki alanlar bulunur:
 

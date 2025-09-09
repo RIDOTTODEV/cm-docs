@@ -7,7 +7,9 @@ toc: true
 ---
 
 # Correction Infos Report
-![img_4.png](img_4.png)
+<a href="img_4.png" data-lightbox="correction-infos-report" data-title="Correction Infos Report Ana Ekranı">
+  <img src="img_4.png" alt="Correction Infos Report" style="cursor: pointer;">
+</a>
 Correction Infos Report sayfası, oyuncu bilgilerinde yapılan düzeltmelerin ve değişikliklerin takibi için kullanılan kapsamlı bir audit raporlama arayüzüdür. Bu sayfa ile oyuncu bilgilerindeki tüm değişiklikleri görüntüleyebilir ve takip edebilirsiniz.
 
 ### Tablo Sütunları
