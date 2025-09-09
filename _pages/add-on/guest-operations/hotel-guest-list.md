@@ -7,9 +7,14 @@ sidebar:
 ---
 
 # Hotel Guest List
-<a href="img.png" data-lightbox="hotel-guest-list" data-title="Hotel Guest List Ana Ekranı">
-  <img src="img.png" alt="Hotel Guest List" style="cursor: pointer;">
+<a href="#modal-img1">
+  <img src="img.png" alt="Hotel Guest List" class="image-zoom">
 </a>
+
+<div id="modal-img1" class="image-modal">
+  <a href="#" class="close">&times;</a>
+  <img src="img.png" alt="Hotel Guest List Ana Ekranı">
+</div>
 
 Bu ekranda otele giriş yapan tüm misafirlerin detaylı bilgileri listelenir. Misafirler hakkında check-in/check-out bilgileri, oda detayları, ücretlendirme ve diğer operasyonel bilgiler görüntülenebilir.
 
@@ -49,14 +54,34 @@ Bu ekranda otele giriş yapan tüm misafirlerin detaylı bilgileri listelenir. M
 
 ## Actions
 
-- <a href="img_1.png" data-lightbox="hotel-guest-list" data-title="Güncelleme Butonu"><img src="img_1.png" alt="Güncelleme" style="cursor: pointer; width: 24px; height: 24px;"></a> : Reservasyon bilgilerini güncellemek için kullanılır.
-- <a href="img_3.png" data-lightbox="hotel-guest-list" data-title="Kopyalama Butonu"><img src="img_3.png" alt="Kopyalama" style="cursor: pointer; width: 24px; height: 24px;"></a> : Reservasyon kaydının kopyasını oluşturmak için kullanılır
-- <a href="img_4.png" data-lightbox="hotel-guest-list" data-title="Silme Butonu"><img src="img_4.png" alt="Silme" style="cursor: pointer; width: 24px; height: 24px;"></a> : Reservasyon kaydını silmek için kullanılır.
+- <a href="#modal-action1"><img src="img_1.png" alt="Güncelleme" class="image-zoom" style="width: 24px; height: 24px;"></a> : Reservasyon bilgilerini güncellemek için kullanılır.
+- <a href="#modal-action3"><img src="img_3.png" alt="Kopyalama" class="image-zoom" style="width: 24px; height: 24px;"></a> : Reservasyon kaydının kopyasını oluşturmak için kullanılır
+- <a href="#modal-action4"><img src="img_4.png" alt="Silme" class="image-zoom" style="width: 24px; height: 24px;"></a> : Reservasyon kaydını silmek için kullanılır.
+
+<div id="modal-action1" class="image-modal">
+  <a href="#" class="close">&times;</a>
+  <img src="img_1.png" alt="Güncelleme Butonu">
+</div>
+
+<div id="modal-action3" class="image-modal">
+  <a href="#" class="close">&times;</a>
+  <img src="img_3.png" alt="Kopyalama Butonu">
+</div>
+
+<div id="modal-action4" class="image-modal">
+  <a href="#" class="close">&times;</a>
+  <img src="img_4.png" alt="Silme Butonu">
+</div>
 
 ## Setting Butonu
-<a href="img_5.png" data-lightbox="hotel-guest-list" data-title="Setting Butonu">
-  <img src="img_5.png" alt="Setting Butonu" style="cursor: pointer;">
+<a href="#modal-img5">
+  <img src="img_5.png" alt="Setting Butonu" class="image-zoom">
 </a>
+
+<div id="modal-img5" class="image-modal">
+  <a href="#" class="close">&times;</a>
+  <img src="img_5.png" alt="Setting Butonu">
+</div>
 
 Setting butonu ile otomatik expense oluşturma ayarları yapılır:
 
@@ -75,9 +100,14 @@ Setting butonu ile otomatik expense oluşturma ayarları yapılır:
 - Bu ayar ile bu expense'in hangi expense türünde girileceği seçilir
 
 ## Reservasyon Ekleme (Create Butonu)
-<a href="img_6.png" data-lightbox="hotel-guest-list" data-title="Reservasyon Ekleme Formu">
-  <img src="img_6.png" alt="Reservasyon Ekleme Formu" style="cursor: pointer;">
+<a href="#modal-img6">
+  <img src="img_6.png" alt="Reservasyon Ekleme Formu" class="image-zoom">
 </a>
+
+<div id="modal-img6" class="image-modal">
+  <a href="#" class="close">&times;</a>
+  <img src="img_6.png" alt="Reservasyon Ekleme Formu">
+</div>
 
 Create butonu ile yeni rezervasyon oluşturma formunda aşağıdaki alanlar bulunur:
 
