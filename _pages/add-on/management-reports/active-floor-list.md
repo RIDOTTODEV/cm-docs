@@ -17,11 +17,18 @@ Slot makinelerinde aktif oyuncuları gösterir
 
 #### Tablo Sütunları
 - **Player**: Oyuncunun adı ve soyadı
+- **FloorNo** : Slot makinesinin flor numarası
 - **Currency**: Oyuncunun kullandığı para birimi
-- **T.Over**: Toplam turnover (bahis) miktarı
-- **Avg.B**: Ortalama bahis miktarı
-- **T.O.Con**: Turnover miktarının default currency'i karşılığını verir
-- **Avg.B.Con**: Avg bet değerinin default currency'i karşılığını verir
+- **T.Over**: Toplam turnover (bahis) miktarı (Kullanıcının seçmiş olduğu default currency biriminde gözükecektir)
+- **Avg.B**: Ortalama bahis miktarı (Kullanıcının seçmiş olduğu default currency biriminde gözükecektir)
+
+ "playerId": 12,
+      "playerFullName": "onur celik",
+      "floorNo": 1010,
+      "currencyId": 2,
+      "currencyName": "EUR",
+      "turnover": 48451.114269,
+      "avgBet": 13.2561188150479
 
 ### Live Game Players (Sağ Panel)
 Live game masalarında aktif oyuncuları gösterir
