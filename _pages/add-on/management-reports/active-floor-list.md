@@ -5,6 +5,8 @@ layout: single
 nav_order: 1
 permalink: /add-on/management-reports/active-floor-list/
 read_time: true
+toc: true
+toc_sticky: true
 categories:
   - Management Reports
 tags:

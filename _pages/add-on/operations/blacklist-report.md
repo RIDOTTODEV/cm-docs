@@ -5,6 +5,8 @@ layout: single
 nav_order: 3
 permalink: /operations/blacklist-report/
 read_time: true
+toc: true
+toc_sticky: true
 categories:
   - Operations
 tags:

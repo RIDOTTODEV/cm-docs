@@ -5,6 +5,8 @@ layout: single
 nav_order: 1
 permalink: /operations/customer-information/
 read_time: true
+toc: true
+toc_sticky: true
 categories:
   - Operations
 tags:

@@ -5,6 +5,8 @@ layout: single
 nav_order: 4
 permalink: /operations/correction-infos-report/
 read_time: true
+toc: true
+toc_sticky: true
 categories:
   - Operations
 tags:

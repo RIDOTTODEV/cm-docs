@@ -5,6 +5,8 @@ layout: single
 nav_order: 2
 permalink: /operations/portfolio-management/
 read_time: true
+toc: true
+toc_sticky: true
 categories:
   - Operations
 tags:

@@ -5,6 +5,8 @@ layout: single
 nav_order: 5
 permalink: /operations/player-lookup-audit-logs-report/
 read_time: true
+toc: true
+toc_sticky: true
 categories:
   - Operations
 tags:
