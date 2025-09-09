@@ -1,12 +1,18 @@
 ---
 title: "Player Lookup Audit Logs Report"
+parent: "Operations"
+layout: single
+nav_order: 5
 permalink: /operations/player-lookup-audit-logs-report/
-excerpt: "Player lookup activity tracking and audit system in Ridotto"
-last_modified_at: 2025-01-27
-toc: true
+read_time: true
+categories:
+  - Operations
+tags:
+  - Lookup
+  - Audit
+  - Logs
 ---
 
-# Player Lookup Audit Logs Report
 
 ![img_5.png](img_5.png)
 

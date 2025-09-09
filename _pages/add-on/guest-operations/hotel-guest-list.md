@@ -1,12 +1,18 @@
 ---
 title: "Hotel Guest List"
-permalink: /add-on/guest-operations/hotel-guest-list/
+parent: "Guest Operations"
 layout: single
-sidebar:
-  nav: "docs"
+nav_order: 1
+permalink: /add-on/guest-operations/hotel-guest-list/
+read_time: true
+categories:
+  - Guest Operations
+tags:
+  - Hotel
+  - Guest
+  - Reservation
 ---
 
-# Hotel Guest List
 ![img.png](img.png)
 
 Bu ekranda otele giriş yapan tüm misafirlerin detaylı bilgileri listelenir. Misafirler hakkında check-in/check-out bilgileri, oda detayları, ücretlendirme ve diğer operasyonel bilgiler görüntülenebilir.

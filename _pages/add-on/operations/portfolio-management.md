@@ -1,12 +1,18 @@
 ---
 title: "Portfolio Management"
+parent: "Operations"
+layout: single
+nav_order: 2
 permalink: /operations/portfolio-management/
-excerpt: "Player portfolio management and filtering system in Ridotto"
-last_modified_at: 2025-01-27
-toc: true
+read_time: true
+categories:
+  - Operations
+tags:
+  - Portfolio
+  - Player
+  - Management
 ---
 
-# Portfolio Management
 
 ![img_1.png](img_1.png)
 

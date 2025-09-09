@@ -1,12 +1,18 @@
 ---
 title: "Black List Report"
+parent: "Operations"
+layout: single
+nav_order: 3
 permalink: /operations/blacklist-report/
-excerpt: "Player blacklist management and tracking system in Ridotto"
-last_modified_at: 2025-01-27
-toc: true
+read_time: true
+categories:
+  - Operations
+tags:
+  - Blacklist
+  - Player
+  - Report
 ---
 
-# Black List Report
 ![img_3.png](img_3.png)
 Black List Report sayfası, oyuncuların blacklist durumlarının yönetimi ve takibi için kullanılan kapsamlı bir raporlama arayüzüdür. Bu sayfa ile blacklist taleplerini görüntüleyebilir, filtreleyebilir ve yönetebilirsiniz.
 

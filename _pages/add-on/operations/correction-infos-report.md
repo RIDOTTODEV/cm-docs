@@ -1,12 +1,18 @@
 ---
 title: "Correction Infos Report"
+parent: "Operations"
+layout: single
+nav_order: 4
 permalink: /operations/correction-infos-report/
-excerpt: "Player information correction tracking and audit system in Ridotto"
-last_modified_at: 2025-01-27
-toc: true
+read_time: true
+categories:
+  - Operations
+tags:
+  - Correction
+  - Audit
+  - Report
 ---
 
-# Correction Infos Report
 ![img_4.png](img_4.png)
 Correction Infos Report sayfası, oyuncu bilgilerinde yapılan düzeltmelerin ve değişikliklerin takibi için kullanılan kapsamlı bir audit raporlama arayüzüdür. Bu sayfa ile oyuncu bilgilerindeki tüm değişiklikleri görüntüleyebilir ve takip edebilirsiniz.
 

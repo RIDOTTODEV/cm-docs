@@ -1,12 +1,16 @@
 ---
 title: "Active Floor List"
-permalink: /add-on/management-reports/active-floor-list/
+parent: "Management Reports"
 layout: single
-sidebar:
-  nav: "docs"
+nav_order: 1
+permalink: /add-on/management-reports/active-floor-list/
+read_time: true
+categories:
+  - Management Reports
+tags:
+  - Management
 ---
 
-# Active Floor List
 
 ![img.png](img.png)
 

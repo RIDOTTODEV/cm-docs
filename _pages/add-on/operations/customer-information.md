@@ -1,12 +1,18 @@
 ---
 title: "Customer Information"
+parent: "Operations"
+layout: single
+nav_order: 1
 permalink: /operations/customer-information/
-excerpt: "Player information management and operations in Ridotto system"
-last_modified_at: 2025-01-27
-toc: true
+read_time: true
+categories:
+  - Operations
+tags:
+  - Customer
+  - Player
+  - Information
 ---
 
-# Customer Information
 ![img.png](img.png)
 Customer Information sayfası, oyuncuların detaylı bilgilerini görüntülemenizi ve çeşitli işlemler yapmanızı sağlayan kapsamlı bir yönetim arayüzüdür.
 
