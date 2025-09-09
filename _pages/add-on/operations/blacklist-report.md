@@ -7,9 +7,7 @@ toc: true
 ---
 
 # Black List Report
-<a href="img_3.png" data-lightbox="blacklist-report" data-title="Black List Report Ana Ekranı">
-  <img src="img_3.png" alt="Black List Report" style="cursor: pointer;">
-</a>
+![img_3.png](img_3.png)
 Black List Report sayfası, oyuncuların blacklist durumlarının yönetimi ve takibi için kullanılan kapsamlı bir raporlama arayüzüdür. Bu sayfa ile blacklist taleplerini görüntüleyebilir, filtreleyebilir ve yönetebilirsiniz.
 
 ### Tablo Sütunları

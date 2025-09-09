@@ -7,11 +7,8 @@ toc: true
 ---
 
 # Customer Information
-<a href="img.png" data-lightbox="customer-information" data-title="Customer Information Ana Ekranı">
-  <img src="img.png" alt="Customer Information" style="cursor: pointer;">
-</a>
-
-### Customer Information sayfası, oyuncuların detaylı bilgilerini görüntülemenizi ve çeşitli işlemler yapmanızı sağlayan kapsamlı bir yönetim arayüzüdür.
+![img.png](img.png)
+Customer Information sayfası, oyuncuların detaylı bilgilerini görüntülemenizi ve çeşitli işlemler yapmanızı sağlayan kapsamlı bir yönetim arayüzüdür.
 
 ## Genel Bakış
 

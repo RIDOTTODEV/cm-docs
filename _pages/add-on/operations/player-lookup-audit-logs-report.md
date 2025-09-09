@@ -8,9 +8,7 @@ toc: true
 
 # Player Lookup Audit Logs Report
 
-<a href="img_5.png" data-lightbox="player-lookup-audit" data-title="Player Lookup Audit Logs Report Ana Ekranı">
-  <img src="img_5.png" alt="Player Lookup Audit Logs Report" style="cursor: pointer;">
-</a>
+![img_5.png](img_5.png)
 
 Player Lookup Audit Logs Report sayfası, oyuncu arama ve sorgulama aktivitelerinin takibi için kullanılan kapsamlı bir audit raporlama arayüzüdür. Bu sayfa ile sistem kullanıcılarının oyuncu bilgilerine erişim aktivitelerini görüntüleyebilir ve takip edebilirsiniz.
 
