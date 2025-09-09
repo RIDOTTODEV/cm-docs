@@ -1,9 +1,9 @@
 ---
 title: "Active Floor List"
 permalink: /add-on/management-reports/active-floor-list/
-excerpt: "Real-time active players tracking on slot machines and live game tables in Ridotto"
-last_modified_at: 2025-01-27
-toc: true
+layout: single
+sidebar:
+  nav: "docs"
 ---
 
 # Active Floor List

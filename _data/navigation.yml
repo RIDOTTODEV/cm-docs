@@ -65,7 +65,6 @@ docs:
     children:
       - title: "Active Floor List"
         url: /add-on/management-reports/active-floor-list/
-        
   - title: "Add On"
     url: /add-on/
     children:
