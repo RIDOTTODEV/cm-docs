@@ -60,6 +60,12 @@ docs:
     children:
       - title: "Hotel Guest List"
         url: /add-on/guest-operations/hotel-guest-list/
+  - title: "Management Reports"
+    url: /management-reports/
+    children:
+      - title: "Active Floor List"
+        url: /management-reports/active-floor-list/
+        
   - title: "Add On"
     url: /add-on/
     children:
@@ -98,6 +104,7 @@ docs:
     # children:
     #   - title: "Kullanıcı Yönetimi"
     #     url: /attendant/kullanici-yonetimi/
+
 
   
 
