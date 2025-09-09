@@ -29,3 +29,44 @@
 
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
+<!-- Auto Image Zoom Script -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Create overlay element
+    const overlay = document.createElement('div');
+    overlay.className = 'image-overlay';
+    overlay.innerHTML = '<span class="close">&times;</span>';
+    document.body.appendChild(overlay);
+
+    // Add click event to all images in content
+    const images = document.querySelectorAll('.page__content img');
+    images.forEach(function(img) {
+        img.addEventListener('click', function() {
+            const clonedImg = img.cloneNode(true);
+            clonedImg.style.cursor = 'default';
+            
+            // Clear previous image and add new one
+            const existingImg = overlay.querySelector('img');
+            if (existingImg) {
+                existingImg.remove();
+            }
+            overlay.appendChild(clonedImg);
+            overlay.classList.add('active');
+        });
+    });
+
+    // Close overlay when clicking on it or close button
+    overlay.addEventListener('click', function(e) {
+        if (e.target === overlay || e.target.classList.contains('close')) {
+            overlay.classList.remove('active');
+        }
+    });
+
+    // Close overlay with ESC key
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            overlay.classList.remove('active');
+        }
+    });
+});
+</script>
