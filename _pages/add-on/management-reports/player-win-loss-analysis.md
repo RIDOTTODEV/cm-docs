@@ -30,15 +30,15 @@ Bu rapor, seçilen oyuncunun slot ve live game oyunlarındaki performansını, h
 - **Result**: Oyun sonucu (casino açısından)
 - **Avg Drop**: Ortalama drop miktarı
 - **Avg Result**: Ortalama result değeri
-- **Hold %**: Hold yüzdesi
+- **Hold %**: Hold yüzdesi - (LG Result + Slot Result) / (LG Drop + Slot Drop) * 100
 
 #### LG (Live Game) Sütunu
 - **Count**: Live game oyun sayısı
-- **Drop**: Live game drop miktarı
+- **Drop**: Live game drop miktarı (CashDrop + ChipDrop)
 - **Result**: Live game result değeri
 - **Avg Drop**: Live game ortalama drop
 - **Avg Result**: Live game ortalama result
-- **Hold %**: Live game hold yüzdesi
+- **Hold %**: Live game hold yüzdesi - (Result / (CashDrop + ChipDrop) * 100)
 
 #### SLOT Sütunu
 - **Count**: Slot oyun sayısı
@@ -46,7 +46,7 @@ Bu rapor, seçilen oyuncunun slot ve live game oyunlarındaki performansını, h
 - **Result**: Slot result değeri
 - **Avg Drop**: Slot ortalama drop
 - **Avg Result**: Slot ortalama result
-- **Hold %**: Slot hold yüzdesi
+- **Hold %**: Slot hold yüzdesi  (Result / Drop * 100)
 
 ### Yüzdeler
 - **Real Hold %**: Gerçek hold yüzdesi  (Result + Comp + Discount) / Drop * 100
