@@ -1,9 +1,9 @@
 ---
 title: "Time In/Out Report By Player"
-parent: "LG Reports"
+parent: "Reports"
 layout: single
 nav_order: 3
-permalink: /lg/time-in-out-report-by-player/
+permalink: /add-on/reports/time-in-out-report-by-player/
 read_time: true
 toc: true
 toc_sticky: true

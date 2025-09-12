@@ -3,7 +3,7 @@ title: "Portfolio Management"
 parent: "Operations"
 layout: single
 nav_order: 2
-permalink: /operations/portfolio-management/
+permalink: /add-on/operations/portfolio-management/
 read_time: true
 toc: true
 toc_sticky: true

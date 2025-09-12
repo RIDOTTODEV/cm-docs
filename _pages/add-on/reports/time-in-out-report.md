@@ -1,9 +1,9 @@
 ---
 title: "Time In/Out Report"
-parent: "LG Reports"
+parent: "Reports"
 layout: single
 nav_order: 2
-permalink: /lg/time-in-out-report/
+permalink: /add-on/reports/time-in-out-report/
 read_time: true
 toc: true
 toc_sticky: true

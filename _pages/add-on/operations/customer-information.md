@@ -3,7 +3,7 @@ title: "Customer Information"
 parent: "Operations"
 layout: single
 nav_order: 1
-permalink: /operations/customer-information/
+permalink: /add-on/operations/customer-information/
 read_time: true
 toc: true
 toc_sticky: true

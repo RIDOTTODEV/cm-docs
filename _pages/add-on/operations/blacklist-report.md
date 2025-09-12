@@ -3,7 +3,7 @@ title: "Black List Report"
 parent: "Operations"
 layout: single
 nav_order: 3
-permalink: /operations/blacklist-report/
+permalink: /add-on/operations/blacklist-report/
 read_time: true
 toc: true
 toc_sticky: true

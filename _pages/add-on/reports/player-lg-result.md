@@ -1,9 +1,9 @@
 ---
 title: "Player Result Report"
-parent: "LG Reports"
+parent: "Reports"
 layout: single
 nav_order: 1
-permalink: /lg/player-result-report/
+permalink: /add-on/reports/player-lg-result/
 read_time: true
 toc: true
 toc_sticky: true
