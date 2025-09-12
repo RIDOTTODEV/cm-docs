@@ -43,18 +43,18 @@ docs:
         url: /ridotto/changegd/
 
   - title: "Operations"
-    url: /operations/
+    url: /add-on/operations/
     children:
       - title: "Customer Information"
-        url: /operations/customer-information/
+        url: /add-on/operations/customer-information/
       - title: "Portfolio Management"
-        url: /operations/portfolio-management/
+        url: /add-on/operations/portfolio-management/
       - title: "Blacklist Report"
-        url: /operations/blacklist-report/
+        url: /add-on/operations/blacklist-report/
       - title: "Correction Infos Report"
-        url: /operations/correction-infos-report/
+        url: /add-on/operations/correction-infos-report/
       - title: "Player Lookup Audit Logs Report"
-        url: /operations/player-lookup-audit-logs-report/
+        url: /add-on/operations/player-lookup-audit-logs-report/
   - title: "Guest Operations"
     url: /add-on/guest-operations/
     children:
@@ -71,6 +71,20 @@ docs:
         url: /add-on/management-reports/call-report/
       - title: "Player Win Loss Analysis"
         url: /add-on/management-reports/player-win-loss-analysis/
+  - title: "Pit"
+    url: /add-on/pit/
+    children:
+      - title: "Floor Result"
+        url: /add-on/pit/floor-result/
+  - title: "Reports"
+    url: /add-on/reports/
+    children:
+      - title: "Player LG Result"
+        url: /add-on/reports/player-lg-result/
+      - title: "Time In-Out Report by Player"
+        url: /add-on/reports/time-in-out-report-by-player/
+      - title: "Time In-Out Report"
+        url: /add-on/reports/time-in-out-report/
   - title: "Add On"
     url: /add-on/
     children:
@@ -109,6 +123,8 @@ docs:
     # children:
     #   - title: "Kullanıcı Yönetimi"
     #     url: /attendant/kullanici-yonetimi/
+
+  
 
 
   
