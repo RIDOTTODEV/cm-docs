@@ -67,6 +67,10 @@ docs:
         url: /add-on/management-reports/active-floor-list/
       - title: "Active Floor Info"
         url: /add-on/management-reports/active-floor-info/
+      - title: "Call Report"
+        url: /add-on/management-reports/call-report/
+      - title: "Player Win Loss Analysis"
+        url: /add-on/management-reports/player-win-loss-analysis/
   - title: "Add On"
     url: /add-on/
     children:

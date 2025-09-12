@@ -13,7 +13,7 @@ tags:
   - Management
 ---
 
-
+## Genel Bakış
 ![img.png](img.png)
 
 Active Floor List sayfası, casino floor'unda slot makinelerinde ve live game masalarında aktif olarak oturan oyuncuları gerçek zamanlı olarak görüntülemek için kullanılır.

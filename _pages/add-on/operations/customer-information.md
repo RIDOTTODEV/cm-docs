@@ -190,12 +190,22 @@ Seçilen tarih aralığındaki otel rezervasyonları detaylı olarak listelenir:
 Sayfanın sağ tarafında bulunan yan panel çeşitli işlem seçenekleri sunar:
 
 ### Tasks (Görevler)
-- **Add Task**: Yeni görev ekleme 
-- **Task List**: Mevcut görevlerin listesi
+Yeni call ekleme,düzenleme ve silme işlemleri yapılabilir
+
+#### Call Kayıdı Oluşturma
+![img_6.png](img_6.png)
+- **Due Date**: Oyuncunun aranacağı tarih
+- **Transfer**: Transfer durumu (Yes/No)
+- **Completed**: Aramanın yapılıp yapılmadığı durumu
+- **Notes**: Not alanı
+- **Result**: Arama sonucu alınan notlar
+- 
+Alt kısımda bulunan tablo da geçmiş aramalar listelenir
 
 ### Player Attachments List (Oyuncu Ekleri)
-- **Add Attachment**: Yeni ek dosya yükleme
-- **Attachment List**: Mevcut ek dosyaların listesi
+Oyuncuya ait ek dosyaların listesi ve yeni ek dosya yükleme işlemleri yapılabilir
+![img_7.png](img_7.png)
+
 
 ### Friends List (Arkadaş Listesi)
 - **Add Friend**: Yeni arkadaş ekleme
