@@ -1,0 +1,77 @@
+title: Ridotto Docs
+email: ridotto@pashainternational.com
+description: >-
+  Ridotto Casino Management Sistemi Teknik ve yardım dökümanı
+
+minimal_mistakes_skin: default
+search: false
+
+# Build settings
+markdown: kramdown
+theme: minimal-mistakes-jekyll
+# Outputting
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+include:
+  - _pages
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-last-modified-at
+
+author:
+  name: "Support"
+  avatar: "/assets/images/goril-profil.jpeg"
+  bio: "Here to help"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/RIDOTTODEV"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      show_date: true
+      show_tags: true
+      show_categories: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      sidebar:
+        nav: "docs"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      toc: true
+      toc_sticky: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+sass:
+  style: compressed
