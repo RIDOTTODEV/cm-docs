@@ -1,0 +1,824 @@
+
+
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.28.0 by Michael Rose
+  Copyright 2013-2026 Michael Rose - mademistakes.com | @mmistakes
+  Copyright 2024-2026 iBug - ibugone.com | @iBug
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+
+<!-- begin _includes/seo.html --><title>Customer Information - Ridotto Docs</title>
+<meta name="description" content="Ridotto Casino Management Sistemi Teknik ve yardım dökümanı">
+
+
+  <meta name="author" content="Support">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Ridotto Docs">
+<meta property="og:title" content="Customer Information">
+<meta property="og:url" content="http://localhost:4000/add-on/operations/customer-information/">
+
+
+  <meta property="og:description" content="Ridotto Casino Management Sistemi Teknik ve yardım dökümanı">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/add-on/operations/customer-information/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Ridotto Docs Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+<link rel="stylesheet" href="/assets/css/custom.css">
+
+<!-- Auto Image Zoom Script -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Create overlay element
+    const overlay = document.createElement('div');
+    overlay.className = 'image-overlay';
+    overlay.innerHTML = '<span class="close">&times;</span>';
+    document.body.appendChild(overlay);
+
+    // Add click event to all images in content
+    const images = document.querySelectorAll('.page__content img');
+    images.forEach(function(img) {
+        img.addEventListener('click', function() {
+            const clonedImg = img.cloneNode(true);
+            clonedImg.style.cursor = 'default';
+            
+            // Clear previous image and add new one
+            const existingImg = overlay.querySelector('img');
+            if (existingImg) {
+                existingImg.remove();
+            }
+            overlay.appendChild(clonedImg);
+            overlay.classList.add('active');
+        });
+    });
+
+    // Close overlay when clicking on it or close button
+    overlay.addEventListener('click', function(e) {
+        if (e.target === overlay || e.target.classList.contains('close')) {
+            overlay.classList.remove('active');
+        }
+    });
+
+    // Close overlay with ESC key
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            overlay.classList.remove('active');
+        }
+    });
+});
+</script>
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single" dir="ltr">
+    
+<nav class="skip-links" aria-label="Skip links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
+        
+        <a class="site-title" href="/">
+          Ridotto Docs
+          
+        </a>
+        <ul class="visible-links"></ul>
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+
+
+<div id="main" role="main">
+  
+
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+<nav class="nav__list">
+  
+<input id="ac-toc" name="accordion-toc" type="checkbox" />
+<label for="ac-toc">Toggle Menu</label>
+<ul class="nav__items">
+    
+      
+      
+<li>
+          
+            
+<details class="nav__collapsible" open>
+<summary>
+<a href="/ridotto/kurulum/"><span class="nav__sub-title">Ridotto</span></a>
+</summary>
+<ul>
+            
+<li><a href="/ridotto/kurulum/">Kurulum</a></li>
+            
+<li><a href="/ridotto/ozellikler/">Özellikler</a></li>
+            
+<li><a href="/ridotto/changegd/">Gün Değişimi</a></li>
+            
+<li><a href="/add-on/operations/customer-information/" class="active">Customer Information</a></li>
+            
+<li><a href="/add-on/operations/portfolio-management/">Portfolio Management</a></li>
+            
+<li><a href="/add-on/operations/blacklist-report/">Blacklist Report</a></li>
+            
+<li><a href="/add-on/operations/correction-infos-report/">Correction Infos Report</a></li>
+            
+<li><a href="/add-on/operations/player-lookup-audit-logs-report/">Player Lookup Audit Logs Report</a></li>
+            
+<li><a href="/add-on/guest-operations/hotel-guest-list/">Hotel Guest List</a></li>
+            
+<li><a href="/add-on/management-reports/active-floor-list/">Active Floor List</a></li>
+            
+<li><a href="/add-on/management-reports/active-floor-info/">Active Floor Info</a></li>
+            
+<li><a href="/add-on/management-reports/call-report/">Call Report</a></li>
+            
+<li><a href="/add-on/management-reports/player-win-loss-analysis/">Player Win Loss Analysis</a></li>
+            
+<li><a href="/add-on/pit/floor-result/">Floor Result</a></li>
+            
+<li><a href="/add-on/reports/player-lg-result/">Player LG Result</a></li>
+            
+<li><a href="/add-on/reports/time-in-out-report-by-player/">Time In-Out Report by Player</a></li>
+            
+<li><a href="/add-on/reports/time-in-out-report/">Time In-Out Report</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/add-on/cage-operations/"><span class="nav__sub-title">Add On</span></a>
+</summary>
+<ul>
+            
+<li><a href="/add-on/cage-operations/">Cage Operations</a></li>
+            
+<li><a href="/add-on/player-operations/">Player Operations</a></li>
+            
+<li><a href="/add-on/in-out-report/">In-out Report</a></li>
+            
+<li><a href="/add-on/in-out-filtered-report/">In-out Filtered Report</a></li>
+            
+<li><a href="/add-on/in-out-detailed-inout-report/">In-out Detailed In/Out Report</a></li>
+            
+<li><a href="/add-on/in-out-detailed-net-report/">In-out Detailed Net Report</a></li>
+            
+<li><a href="/add-on/in-out-net-cash-summary-report/">In-out Net Cash Summary Report</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/pos/terminal/"><span class="nav__sub-title">POS</span></a>
+</summary>
+<ul>
+            
+<li><a href="/pos/terminal/">Terminal</a></li>
+            
+<li><a href="/pos/panel/">Panel</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/registrationapp/ozellikler/"><span class="nav__sub-title">Registration App</span></a>
+</summary>
+<ul>
+            
+<li><a href="/registrationapp/ozellikler/">Özellikler</a></li>
+            
+<li><a href="/registrationapp/check-in/">Check-In</a></li>
+            
+<li><a href="/registrationapp/carddesk-sign-in/">Carddesk Sign-In</a></li>
+            
+<li><a href="/registrationapp/search/">Search</a></li>
+            
+<li><a href="/registrationapp/adminpanel/">Admin Panel</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/checkinkioskapp/ozellikler/"><span class="nav__sub-title">Check-in Kiosk App</span></a>
+</summary>
+<ul>
+            
+<li><a href="/checkinkioskapp/ozellikler/">Özellikler</a></li>
+            
+<li><a href="/checkinkioskapp/idle-page/">Idle Page</a></li>
+            
+<li><a href="/checkinkioskapp/greetings-page/">Greetings Page</a></li>
+            
+<li><a href="/checkinkioskapp/missing-document-page/">Missing Document Page</a></li>
+            
+<li><a href="/checkinkioskapp/blacklist-page/">BlackList Page</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+    
+</ul>
+</nav>
+    
+  
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Customer Information">
+    
+    
+    <meta itemprop="dateModified" content="2026-08-03T21:51:03+03:00">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/add-on/operations/customer-information/" itemprop="url">Customer Information
+</a>
+          </h1>
+          
+
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          4 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc" aria-label="Table of contents">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#genel-bakış">Genel Bakış</a></li><li><a href="#oyuncu-arama">Oyuncu Arama</a><ul><li><a href="#search-player">Search Player</a></li><li><a href="#oyuncu-temel-bilgileri">Oyuncu Temel Bilgileri</a></li></ul></li><li><a href="#i̇statistik-kartları">İstatistik Kartları</a><ul><li><a href="#visit-days-ziyaret-günleri">Visit Days (Ziyaret Günleri)</a></li><li><a href="#category-kategori">Category (Kategori)</a></li><li><a href="#played-days-oyun-günleri">Played Days (Oyun Günleri)</a></li><li><a href="#resrv-total-rezervasyon-toplamı">Resrv Total (Rezervasyon Toplamı)</a></li><li><a href="#daily-theo-günlük-teorik">Daily Theo (Günlük Teorik)</a></li><li><a href="#hotel-days-otel-günleri">Hotel Days (Otel Günleri)</a></li></ul></li><li><a href="#oyun-i̇statistikleri">Oyun İstatistikleri</a><ul><li><a href="#genel-i̇statistikler">Genel İstatistikler</a><ul><li><a href="#ana-i̇statistik-tablosu-toplam-değerler">Ana İstatistik Tablosu (Toplam Değerler)</a></li><li><a href="#day-inputundan-seçilen-gün-sayısı--30-gün-ise-son-30-günlük-data-getirir">(Day inputundan seçilen gün sayısı : 30 gün ise son 30 günlük data getirir)</a></li><li><a href="#ortalama-değerler-aktif-günlere-göre">Ortalama Değerler (Aktif Günlere Göre)</a></li></ul></li><li><a href="#oyun-detayları">Oyun Detayları</a></li><li><a href="#drop-ve-result-tablosu">Drop ve Result Tablosu</a></li></ul></li><li><a href="#rezervasyon-geçmişi">Rezervasyon Geçmişi</a><ul><li><a href="#player-reservations">Player Reservations</a></li></ul></li><li><a href="#yan-panel-i̇şlemleri">Yan Panel İşlemleri</a><ul><li><a href="#tasks-görevler">Tasks (Görevler)</a><ul><li><a href="#call-kayıdı-oluşturma">Call Kayıdı Oluşturma</a></li></ul></li><li><a href="#player-attachments-list-oyuncu-ekleri">Player Attachments List (Oyuncu Ekleri)</a></li><li><a href="#friends-list-arkadaş-listesi">Friends List (Arkadaş Listesi)</a></li><li><a href="#linked-players-bağlantılı-oyuncular">Linked Players (Bağlantılı Oyuncular)</a></li><li><a href="#gifts-hediyeler">Gifts (Hediyeler)</a></li><li><a href="#notes-notlar">Notes (Notlar)</a><ul><li><a href="#general-notes-genel-notlar">General Notes (Genel Notlar)</a></li><li><a href="#pr-notes-pr-notları">Pr Notes (PR Notları)</a></li><li><a href="#portfolio-notes-portfölyo-notları">Portfolio Notes (Portfölyo Notları)</a></li></ul></li></ul></li></ul>
+            </nav>
+          </aside>
+        
+        <p><img src="img.png" alt="img.png" />
+Customer Information sayfası, oyuncuların detaylı bilgilerini görüntülemenizi ve çeşitli işlemler yapmanızı sağlayan kapsamlı bir yönetim arayüzüdür.</p>
+
+<h2 id="genel-bakış">Genel Bakış</h2>
+
+<p>Bu sayfa, seçili bir oyuncunun tüm bilgilerini tek bir ekranda toplar ve aşağıdaki ana bölümleri içerir:</p>
+<ul>
+  <li>Oyuncu temel bilgileri</li>
+  <li>Oyun istatistikleri</li>
+  <li>Rezervasyon geçmişi</li>
+  <li>Yan panel işlemleri</li>
+</ul>
+
+<h2 id="oyuncu-arama">Oyuncu Arama</h2>
+
+<h3 id="search-player">Search Player</h3>
+<ul>
+  <li><strong>Arama Kutusu</strong>: Oyuncu adını yazarak arama yapabilirsiniz</li>
+  <li><strong>Temizle Butonu</strong> (×): Arama kutusunu temizlemek için kullanılır</li>
+  <li><strong>Not Blacklisted</strong>: Oyuncunun blacklist olup olmadığını gösterir</li>
+</ul>
+
+<h3 id="oyuncu-temel-bilgileri">Oyuncu Temel Bilgileri</h3>
+
+<p>Arama sonucunda seçilen oyuncunun temel bilgileri görüntülenir:</p>
+
+<ul>
+  <li><strong>Player Id</strong>: Oyuncu kimlik numarası (örn: 1)</li>
+  <li><strong>Assist Id</strong>: Yardımcı kimlik numarası (örn: 1)</li>
+  <li><strong>Class</strong>: Oyuncu sınıfı (örn: B)</li>
+  <li><strong>Nation</strong>: Uyruk bilgisi</li>
+  <li><strong>Gender</strong>: Cinsiyet (Male/Female)</li>
+  <li><strong>Sp Name</strong>: Eş adı</li>
+  <li><strong>Sp Surname</strong>: Eş soyadı</li>
+</ul>
+
+<h2 id="i̇statistik-kartları">İstatistik Kartları</h2>
+
+<p>Sayfanın üst kısmında oyuncunun önemli istatistikleri kart formatında gösterilir:</p>
+
+<h3 id="visit-days-ziyaret-günleri">Visit Days (Ziyaret Günleri)</h3>
+<ul>
+  <li><strong>Açıklama</strong>: Oyuncunun toplam casino ziyaret gün sayısı</li>
+  <li><strong>Hesaplama</strong>: Seçilen tarih aralığında aktivite olan günlerin sayısı</li>
+</ul>
+
+<h3 id="category-kategori">Category (Kategori)</h3>
+<ul>
+  <li><strong>Açıklama</strong>: Oyuncunun sistem kategorisi</li>
+  <li><strong>Kaynak</strong>: <code class="language-plaintext highlighter-rouge">Player kategori</code> alanından alınır</li>
+</ul>
+
+<h3 id="played-days-oyun-günleri">Played Days (Oyun Günleri)</h3>
+<ul>
+  <li><strong>Açıklama</strong>: Aktif oyun oynanan gün sayısı</li>
+  <li><strong>Hesaplama</strong>: <code class="language-plaintext highlighter-rouge">LgDrop veya  SlotDrop'u  sıfırdan büyükse</code> koşulunu sağlayan günler</li>
+</ul>
+
+<h3 id="resrv-total-rezervasyon-toplamı">Resrv Total (Rezervasyon Toplamı)</h3>
+<ul>
+  <li><strong>Açıklama</strong>: Seçilen tarih aralığındaki toplam rezervasyon sayısı</li>
+  <li><strong>Hesaplama</strong>: <code class="language-plaintext highlighter-rouge">HotelReservation</code> tablosundaki kayıt sayısı</li>
+</ul>
+
+<h3 id="daily-theo-günlük-teorik">Daily Theo (Günlük Teorik)</h3>
+<ul>
+  <li><strong>Açıklama</strong>: Günlük ortalama teorik kazanç</li>
+  <li><strong>Hesaplama</strong>: <code class="language-plaintext highlighter-rouge">Toplam Theoretical / Aktif Oyun Günleri</code></li>
+  <li><strong>Kaynak</strong>: Tüm oyunların theoretical değerlerinin toplamı</li>
+</ul>
+
+<h3 id="hotel-days-otel-günleri">Hotel Days (Otel Günleri)</h3>
+<ul>
+  <li><strong>Açıklama</strong>: Seçilen tarih aralığındaki toplam otel konaklama günleri</li>
+  <li><strong>Hesaplama</strong>: Tüm rezervasyonlardaki kaldığı gün sayısı</li>
+</ul>
+
+<h2 id="oyun-i̇statistikleri">Oyun İstatistikleri</h2>
+
+<h3 id="genel-i̇statistikler">Genel İstatistikler</h3>
+<p>Sayfanın orta kısmında detaylı oyun istatistikleri tablolar halinde sunulur:</p>
+
+<h4 id="ana-i̇statistik-tablosu-toplam-değerler">Ana İstatistik Tablosu (Toplam Değerler)</h4>
+
+<h4 id="day-inputundan-seçilen-gün-sayısı--30-gün-ise-son-30-günlük-data-getirir">(Day inputundan seçilen gün sayısı : 30 gün ise son 30 günlük data getirir)</h4>
+
+<p><strong>Live Game (LG) Toplamları:</strong></p>
+<ul>
+  <li><strong>T Drop LG</strong>: Tüm Live Game oyunlarındaki toplam drop miktarı
+    <ul>
+      <li><strong>Hesaplama</strong>: <code class="language-plaintext highlighter-rouge">LgCashDrop + PlaqueDrop</code> toplamı</li>
+    </ul>
+  </li>
+  <li><strong>T Result LG</strong>: Tüm Live Game oyunlarındaki toplam sonuç
+    <ul>
+      <li><strong>Hesaplama</strong>: Tüm LG oyunlarındaki <code class="language-plaintext highlighter-rouge">Result</code> değerlerinin toplamı</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Slot Oyunları (SL) Toplamları:</strong></p>
+<ul>
+  <li><strong>T Drop SL</strong>: Tüm slot oyunlarındaki toplam drop miktarı
+    <ul>
+      <li><strong>Hesaplama</strong>: <code class="language-plaintext highlighter-rouge">SlotDrop</code> (Bill Acceptor  + Cashdesk işlemleri) toplamı</li>
+    </ul>
+  </li>
+  <li><strong>T Result SL</strong>: Tüm slot oyunlarındaki toplam sonuç
+    <ul>
+      <li><strong>Hesaplama</strong>: <code class="language-plaintext highlighter-rouge">(Won - Bet)</code> değerlerinin toplamı</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Genel Toplamlar:</strong></p>
+<ul>
+  <li><strong>T Drop</strong>: Tüm oyun türlerindeki toplam drop
+    <ul>
+      <li><strong>Hesaplama</strong>: <code class="language-plaintext highlighter-rouge">Total Drop LG + Total Drop SL</code></li>
+    </ul>
+  </li>
+  <li><strong>T Result</strong>: Tüm oyun türlerindeki toplam sonuç
+    <ul>
+      <li><strong>Hesaplama</strong>: <code class="language-plaintext highlighter-rouge">Total Result LG + Total Result SL</code></li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="ortalama-değerler-aktif-günlere-göre">Ortalama Değerler (Aktif Günlere Göre)</h4>
+
+<p><strong>Live Game Ortalamaları:</strong></p>
+<ul>
+  <li><strong>Avg Drop LG</strong>: Günlük ortalama LG drop miktarı
+    <ul>
+      <li><strong>Hesaplama</strong>: <code class="language-plaintext highlighter-rouge">Total Drop LG / Aktif LG Gün Sayısı</code></li>
+    </ul>
+  </li>
+  <li><strong>Avg Result LG</strong>: Günlük ortalama LG sonuç
+    <ul>
+      <li><strong>Hesaplama</strong>: <code class="language-plaintext highlighter-rouge">Total Result LG / Aktif LG Gün Sayısı</code></li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Slot Oyunları Ortalamaları:</strong></p>
+<ul>
+  <li><strong>Avg T Over SL</strong>: Günlük ortalama slot turnover
+    <ul>
+      <li><strong>Hesaplama</strong>: <code class="language-plaintext highlighter-rouge">Toplam Slot Turnover / Aktif Slot Gün Sayısı</code></li>
+    </ul>
+  </li>
+  <li><strong>Avg Result SL</strong>: Günlük ortalama slot sonuç
+    <ul>
+      <li><strong>Hesaplama</strong>: <code class="language-plaintext highlighter-rouge">Total Result SL / Aktif Slot Gün Sayısı</code> (Slot Drop &gt; 0 olan günler)</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Genel Ortalamalar:</strong></p>
+<ul>
+  <li><strong>Avg Drop</strong>: Günlük ortalama toplam drop
+    <ul>
+      <li><strong>Hesaplama</strong>: <code class="language-plaintext highlighter-rouge">(Total Drop LG + Total Drop SL) / Aktif Toplam Gün Sayısı</code></li>
+    </ul>
+  </li>
+  <li><strong>Avg Result</strong>: Günlük ortalama toplam sonuç
+    <ul>
+      <li><strong>Hesaplama</strong>: <code class="language-plaintext highlighter-rouge">(Total Result LG + Total Result SL) / Aktif Toplam Gün Sayısı</code></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="oyun-detayları">Oyun Detayları</h3>
+
+<p>Her oyun türü için detaylı istatistikler gösterilir:</p>
+
+<ul>
+  <li><strong>Time</strong>: Toplam oyun süresi
+    <ul>
+      <li><strong>Hesaplama</strong>: Toplam oyun süresi <code class="language-plaintext highlighter-rouge">PlayTime</code> değerlerinin toplamı</li>
+    </ul>
+  </li>
+  <li><strong>Avg Bet</strong>: Ağırlıklı ortalama bahis miktarı
+    <ul>
+      <li><strong>Hesaplama</strong>: <code class="language-plaintext highlighter-rouge">Toplam (AvgBet × HandCount) / Toplam HandCount</code></li>
+    </ul>
+  </li>
+  <li><strong>Theoretical</strong>: Teorik kazanç/kayıp
+    <ul>
+      <li><strong>Hesaplama</strong>: <code class="language-plaintext highlighter-rouge">(PlayTime/60) × AvgBet × HandCount × HouseEdge</code></li>
+    </ul>
+  </li>
+</ul>
+
+<blockquote>
+  <p><strong>Not</strong>: Theoretical değeri, oyunun ev avantajı (HouseEdge) oranına göre hesaplanır ve casino açısından beklenen kazancı gösterir.</p>
+</blockquote>
+
+<h3 id="drop-ve-result-tablosu">Drop ve Result Tablosu</h3>
+
+<p>Gaming Date bazında günlük detaylı oyun verileri:</p>
+
+<ul>
+  <li><strong>Drop LG</strong>: Live Game günlük drop miktarı
+    <ul>
+      <li><strong>Hesaplama</strong>: <code class="language-plaintext highlighter-rouge">LgCashDrop + PlaqueDrop</code> (o gün için)</li>
+      <li><strong>Açıklama</strong>: Nakit ve plak işlemlerinin toplamı</li>
+    </ul>
+  </li>
+  <li><strong>Result LG</strong>: Live Game günlük sonuç
+    <ul>
+      <li><strong>Hesaplama</strong>: O günkü tüm LG oyunlarındaki <code class="language-plaintext highlighter-rouge">Result</code> toplamı</li>
+      <li><strong>Açıklama</strong>: Pozitif değer oyuncu kaybı, negatif değer oyuncu kazancı</li>
+    </ul>
+  </li>
+  <li><strong>T Over SL</strong>: Slot oyunları günlük turnover
+    <ul>
+      <li><strong>Hesaplama</strong>: O günkü tüm slot oyunlarındaki <code class="language-plaintext highlighter-rouge">Bet</code> toplamı</li>
+      <li><strong>Açıklama</strong>: Toplam bahis miktarı</li>
+    </ul>
+  </li>
+  <li><strong>Result SL</strong>: Slot oyunları günlük sonuç
+    <ul>
+      <li><strong>Hesaplama</strong>: <code class="language-plaintext highlighter-rouge">Won - Bet</code> (o gün için)</li>
+      <li><strong>Açıklama</strong>: Kazanılan miktar eksi bahis miktarı</li>
+    </ul>
+  </li>
+  <li><strong>Date</strong>: Gaming Date adı</li>
+</ul>
+
+<h2 id="rezervasyon-geçmişi">Rezervasyon Geçmişi</h2>
+
+<h3 id="player-reservations">Player Reservations</h3>
+<p>Seçilen tarih aralığındaki otel rezervasyonları detaylı olarak listelenir:</p>
+
+<ul>
+  <li><strong>Name Surname</strong>: Rezervasyon sahibinin ad soyad bilgisi</li>
+  <li><strong>Room Mate</strong>: Oda arkadaşları</li>
+  <li><strong>Check In</strong>: Otele giriş tarihi</li>
+  <li><strong>Check Out</strong>: Otelden çıkış tarihi</li>
+  <li><strong>Room</strong>: Oda numarası</li>
+  <li><strong>Category</strong>: Oyuncu kategorisi</li>
+  <li><strong>Ticket</strong>: Bileti alan taraf</li>
+  <li><strong>From</strong>: Nereden geldiği bilgisi</li>
+  <li><strong>Flight</strong>: Uçuş bilgileri</li>
+</ul>
+
+<h2 id="yan-panel-i̇şlemleri">Yan Panel İşlemleri</h2>
+
+<p>Sayfanın sağ tarafında bulunan yan panel çeşitli işlem seçenekleri sunar:</p>
+
+<h3 id="tasks-görevler">Tasks (Görevler)</h3>
+<p>Yeni call ekleme,düzenleme ve silme işlemleri yapılabilir</p>
+
+<h4 id="call-kayıdı-oluşturma">Call Kayıdı Oluşturma</h4>
+<p><img src="img_6.png" alt="img_6.png" /></p>
+<ul>
+  <li><strong>Due Date</strong>: Oyuncunun aranacağı tarih</li>
+  <li><strong>Transfer</strong>: Transfer durumu (Yes/No)</li>
+  <li><strong>Completed</strong>: Aramanın yapılıp yapılmadığı durumu</li>
+  <li><strong>Notes</strong>: Not alanı</li>
+  <li><strong>Result</strong>: Arama sonucu alınan notlar</li>
+  <li>Alt kısımda bulunan tablo da geçmiş aramalar listelenir</li>
+</ul>
+
+<h3 id="player-attachments-list-oyuncu-ekleri">Player Attachments List (Oyuncu Ekleri)</h3>
+<p>Oyuncuya ait ek dosyaların listesi ve yeni ek dosya yükleme işlemleri yapılabilir
+<img src="img_7.png" alt="img_7.png" /></p>
+
+<h3 id="friends-list-arkadaş-listesi">Friends List (Arkadaş Listesi)</h3>
+<ul>
+  <li><strong>Add Friend</strong>: Yeni arkadaş ekleme</li>
+  <li><strong>Friend List</strong>: Mevcut arkadaşların listesi</li>
+</ul>
+
+<h3 id="linked-players-bağlantılı-oyuncular">Linked Players (Bağlantılı Oyuncular)</h3>
+<ul>
+  <li><strong>Add Linked Player</strong>: Yeni bağlantılı oyuncu ekleme</li>
+  <li><strong>Linked Player List</strong>: Mevcut bağlantılı oyuncuların listesi</li>
+</ul>
+
+<h3 id="gifts-hediyeler">Gifts (Hediyeler)</h3>
+<p>Hediye geçmişi:</p>
+<ul>
+  <li><strong>Gift List</strong>: Oyuncuya verilen hediyelerin listesi</li>
+</ul>
+
+<h3 id="notes-notlar">Notes (Notlar)</h3>
+
+<h4 id="general-notes-genel-notlar">General Notes (Genel Notlar)</h4>
+<ul>
+  <li><strong>Add General Note</strong>: Yeni genel not ekleme</li>
+  <li><strong>General Note List</strong>: Mevcut genel notların listesi</li>
+</ul>
+
+<h4 id="pr-notes-pr-notları">Pr Notes (PR Notları)</h4>
+<ul>
+  <li><strong>Add Pr Note</strong>: Yeni Pr not ekleme</li>
+  <li><strong>Pr Note List</strong>: Mevcut Pr notların listesi</li>
+</ul>
+
+<h4 id="portfolio-notes-portfölyo-notları">Portfolio Notes (Portfölyo Notları)</h4>
+<ul>
+  <li><strong>Add Portfolio Note</strong>: Yeni portfölyo not ekleme</li>
+  <li><strong>Portfolio Note List</strong>: Mevcut portfölyo notların listesi</li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+  
+    
+
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#customer" class="page__taxonomy-item p-category" rel="tag">Customer</a><span class="sep">, </span>
+    
+      <a href="/tags/#information" class="page__taxonomy-item p-category" rel="tag">Information</a><span class="sep">, </span>
+    
+      <a href="/tags/#player" class="page__taxonomy-item p-category" rel="tag">Player</a>
+    
+    </span>
+  </p>
+
+
+  
+
+  
+    
+
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#operations" class="page__taxonomy-item p-category" rel="tag">Operations</a>
+    
+    </span>
+  </p>
+
+
+  
+
+
+        
+
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-updated" datetime="2026-08-03">August 3, 2026</time></p>
+
+
+      </footer>
+
+      
+
+      
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://github.com/RIDOTTODEV" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">&copy; 2026 <a href="http://localhost:4000">Ridotto Docs</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

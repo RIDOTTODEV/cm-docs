@@ -1,0 +1,587 @@
+
+
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.28.0 by Michael Rose
+  Copyright 2013-2026 Michael Rose - mademistakes.com | @mmistakes
+  Copyright 2024-2026 iBug - ibugone.com | @iBug
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+
+<!-- begin _includes/seo.html --><title>Ridotto Gün Değişimi - Ridotto Docs</title>
+<meta name="description" content="Ridotto Casino Management Sistemi Teknik ve yardım dökümanı">
+
+
+  <meta name="author" content="Support">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Ridotto Docs">
+<meta property="og:title" content="Ridotto Gün Değişimi">
+<meta property="og:url" content="http://localhost:4000/ridotto/changegd/">
+
+
+  <meta property="og:description" content="Ridotto Casino Management Sistemi Teknik ve yardım dökümanı">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/ridotto/changegd/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Ridotto Docs Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+<link rel="stylesheet" href="/assets/css/custom.css">
+
+<!-- Auto Image Zoom Script -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Create overlay element
+    const overlay = document.createElement('div');
+    overlay.className = 'image-overlay';
+    overlay.innerHTML = '<span class="close">&times;</span>';
+    document.body.appendChild(overlay);
+
+    // Add click event to all images in content
+    const images = document.querySelectorAll('.page__content img');
+    images.forEach(function(img) {
+        img.addEventListener('click', function() {
+            const clonedImg = img.cloneNode(true);
+            clonedImg.style.cursor = 'default';
+            
+            // Clear previous image and add new one
+            const existingImg = overlay.querySelector('img');
+            if (existingImg) {
+                existingImg.remove();
+            }
+            overlay.appendChild(clonedImg);
+            overlay.classList.add('active');
+        });
+    });
+
+    // Close overlay when clicking on it or close button
+    overlay.addEventListener('click', function(e) {
+        if (e.target === overlay || e.target.classList.contains('close')) {
+            overlay.classList.remove('active');
+        }
+    });
+
+    // Close overlay with ESC key
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            overlay.classList.remove('active');
+        }
+    });
+});
+</script>
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single" dir="ltr">
+    
+<nav class="skip-links" aria-label="Skip links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
+        
+        <a class="site-title" href="/">
+          Ridotto Docs
+          
+        </a>
+        <ul class="visible-links"></ul>
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+
+
+<div id="main" role="main">
+  
+
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+<nav class="nav__list">
+  
+<input id="ac-toc" name="accordion-toc" type="checkbox" />
+<label for="ac-toc">Toggle Menu</label>
+<ul class="nav__items">
+    
+      
+      
+<li>
+          
+            
+<details class="nav__collapsible" open>
+<summary>
+<a href="/ridotto/kurulum/"><span class="nav__sub-title">Ridotto</span></a>
+</summary>
+<ul>
+            
+<li><a href="/ridotto/kurulum/">Kurulum</a></li>
+            
+<li><a href="/ridotto/ozellikler/">Özellikler</a></li>
+            
+<li><a href="/ridotto/changegd/" class="active">Gün Değişimi</a></li>
+            
+<li><a href="/add-on/operations/customer-information/">Customer Information</a></li>
+            
+<li><a href="/add-on/operations/portfolio-management/">Portfolio Management</a></li>
+            
+<li><a href="/add-on/operations/blacklist-report/">Blacklist Report</a></li>
+            
+<li><a href="/add-on/operations/correction-infos-report/">Correction Infos Report</a></li>
+            
+<li><a href="/add-on/operations/player-lookup-audit-logs-report/">Player Lookup Audit Logs Report</a></li>
+            
+<li><a href="/add-on/guest-operations/hotel-guest-list/">Hotel Guest List</a></li>
+            
+<li><a href="/add-on/management-reports/active-floor-list/">Active Floor List</a></li>
+            
+<li><a href="/add-on/management-reports/active-floor-info/">Active Floor Info</a></li>
+            
+<li><a href="/add-on/management-reports/call-report/">Call Report</a></li>
+            
+<li><a href="/add-on/management-reports/player-win-loss-analysis/">Player Win Loss Analysis</a></li>
+            
+<li><a href="/add-on/pit/floor-result/">Floor Result</a></li>
+            
+<li><a href="/add-on/reports/player-lg-result/">Player LG Result</a></li>
+            
+<li><a href="/add-on/reports/time-in-out-report-by-player/">Time In-Out Report by Player</a></li>
+            
+<li><a href="/add-on/reports/time-in-out-report/">Time In-Out Report</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/add-on/cage-operations/"><span class="nav__sub-title">Add On</span></a>
+</summary>
+<ul>
+            
+<li><a href="/add-on/cage-operations/">Cage Operations</a></li>
+            
+<li><a href="/add-on/player-operations/">Player Operations</a></li>
+            
+<li><a href="/add-on/in-out-report/">In-out Report</a></li>
+            
+<li><a href="/add-on/in-out-filtered-report/">In-out Filtered Report</a></li>
+            
+<li><a href="/add-on/in-out-detailed-inout-report/">In-out Detailed In/Out Report</a></li>
+            
+<li><a href="/add-on/in-out-detailed-net-report/">In-out Detailed Net Report</a></li>
+            
+<li><a href="/add-on/in-out-net-cash-summary-report/">In-out Net Cash Summary Report</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/pos/terminal/"><span class="nav__sub-title">POS</span></a>
+</summary>
+<ul>
+            
+<li><a href="/pos/terminal/">Terminal</a></li>
+            
+<li><a href="/pos/panel/">Panel</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/registrationapp/ozellikler/"><span class="nav__sub-title">Registration App</span></a>
+</summary>
+<ul>
+            
+<li><a href="/registrationapp/ozellikler/">Özellikler</a></li>
+            
+<li><a href="/registrationapp/check-in/">Check-In</a></li>
+            
+<li><a href="/registrationapp/carddesk-sign-in/">Carddesk Sign-In</a></li>
+            
+<li><a href="/registrationapp/search/">Search</a></li>
+            
+<li><a href="/registrationapp/adminpanel/">Admin Panel</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/checkinkioskapp/ozellikler/"><span class="nav__sub-title">Check-in Kiosk App</span></a>
+</summary>
+<ul>
+            
+<li><a href="/checkinkioskapp/ozellikler/">Özellikler</a></li>
+            
+<li><a href="/checkinkioskapp/idle-page/">Idle Page</a></li>
+            
+<li><a href="/checkinkioskapp/greetings-page/">Greetings Page</a></li>
+            
+<li><a href="/checkinkioskapp/missing-document-page/">Missing Document Page</a></li>
+            
+<li><a href="/checkinkioskapp/blacklist-page/">BlackList Page</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+    
+</ul>
+</nav>
+    
+  
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Ridotto Gün Değişimi">
+    
+    
+    <meta itemprop="dateModified" content="2026-08-03T21:51:03+03:00">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/ridotto/changegd/" itemprop="url">Ridotto Gün Değişimi
+</a>
+          </h1>
+          
+
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc" aria-label="Table of contents">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#casino-gaming-date-yönetimi">Casino Gaming Date Yönetimi</a><ul><li><a href="#1-roller">1. Roller</a></li><li><a href="#2-ana-akış">2. Ana Akış</a><ul><li><a href="#21-yeni-gaming-date-oluşturma">2.1. Yeni Gaming Date Oluşturma</a></li><li><a href="#22-slot-operasyonları">2.2. Slot Operasyonları</a></li><li><a href="#23-masa-operasyonları">2.3. Masa Operasyonları</a></li><li><a href="#24-masa-gün-değişimi">2.4. Masa Gün Değişimi</a></li><li><a href="#25-kasa-gün-değişimi">2.5. Kasa Gün Değişimi</a></li></ul></li><li><a href="#3-tamamlanma-kriteri">3. Tamamlanma Kriteri</a></li><li><a href="#4-görsel-durum-i̇puçları">4. Görsel Durum İpuçları</a></li></ul></li></ul>
+            </nav>
+          </aside>
+        
+        <!-- ## Genel Tanım
+Casinolarda **oyun günü**, saat 00:00 – 23:59:59 aralığından farklı olarak, keyfi seçilmiş bir saatten başlayıp ertesi gün aynı saate kadar olan süredir.  
+Örneğin: `20 Ağustos 03:55 – 21 Ağustos 05:13` arası tek bir oyun günü kabul edilir ve raporlarda bu aralık **20 Ağustos** olarak adlandırılır.  
+
+Sistemde raporlama ve hesaplama yapılırken seçilen tarih, bu oyun günü karşılıklarına göre hesaplanır. -->
+
+<h1 id="casino-gaming-date-yönetimi">Casino Gaming Date Yönetimi</h1>
+
+<h2 id="1-roller">1. Roller</h2>
+
+<ul>
+  <li><strong>Admin / Cashdesk Supervisor</strong> → Gaming Date oluşturur, kasa gününü değiştirir.</li>
+  <li><strong>Slot Inspector</strong> → Slot makinelerinin gün değişimi ve sayımlarını yapar.</li>
+  <li><strong>Table Inspector</strong> → Masalardaki çip float sayımlarını yapar.</li>
+  <li><strong>Cashier</strong> → Kasa balansı, çip/cash/plaque hareketlerini yönetir.</li>
+</ul>
+
+<hr />
+
+<h2 id="2-ana-akış">2. Ana Akış</h2>
+
+<h3 id="21-yeni-gaming-date-oluşturma">2.1. Yeni Gaming Date Oluşturma</h3>
+
+<ul>
+  <li>Ridotto üzerinde <code class="language-plaintext highlighter-rouge">Gaming Date</code> menüsünden yeni gün oluşturulur.</li>
+  <li>Bu gün, makinelerin ve masaların geçirileceği referans gündür.</li>
+</ul>
+
+<figure class=""><a href="/assets/images/gamingdate-create.png" class="image-popup" title="Gaming Dates
+"><img src="/assets/images/gamingdate-create.png" alt="Gaming Dates" /></a><figcaption>
+      Gaming Dates
+
+    </figcaption></figure>
+
+<h3 id="22-slot-operasyonları">2.2. Slot Operasyonları</h3>
+
+<ul>
+  <li>Slot makinelerinin bill acceptor box’ları değişimi yapılır.</li>
+  <li><code class="language-plaintext highlighter-rouge">Slots</code> menüsünden makineler <strong>tek tek</strong> veya <strong>toplu</strong> olarak yeni güne geçirilir.</li>
+  <li>Geçirilen makinede yapılan tüm kredi açma/silme ve oyun kayıtları artık <strong>yeni güne</strong> işlenir.</li>
+  <li>GamingDate menüsünden önceki günün satırının açılır menüsünden <code class="language-plaintext highlighter-rouge">Slot Count Form</code> açılarak makinelerin bill acceptor box sayımları girilir.
+    <ul>
+      <li><strong>Beklenen = Sayım</strong> → değerler <strong>yeşil</strong> görünür.</li>
+      <li><strong>Fark var</strong> → değerler <strong>turuncu</strong> görünür.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="23-masa-operasyonları">2.3. Masa Operasyonları</h3>
+
+<ul>
+  <li>Inspector’lar kendi panelinden masalardaki çip floatlarını sayar ve sisteme girer.</li>
+</ul>
+
+<figure class=""><a href="/assets/images/inspector-chip-count.png" class="image-popup" title="Inspector Count
+"><img src="/assets/images/inspector-chip-count.png" alt="Inspector Chip Count" /></a><figcaption>
+      Inspector Count
+
+    </figcaption></figure>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Table Operations → Count</code> ekranında:
+    <ul>
+      <li>Masanın cash ve plaque box değerleri girilir. Ayrıca inspectorların çip sayımları burada görünür.</li>
+      <li>Sistem ile sayım arasındaki farklar gösterilir (<strong>yeşil/turuncu</strong>).</li>
+    </ul>
+  </li>
+</ul>
+
+<figure class=""><a href="/assets/images/table-count.png" class="image-popup" title="Table Count
+"><img src="/assets/images/table-count.png" alt="Table Count" /></a><figcaption>
+      Table Count
+
+    </figcaption></figure>
+
+<ul>
+  <li>Sayım tamamlandıktan sonra masalar seçilerek <strong>float resetleme</strong> yapılır:
+    <ul>
+      <li>Fazla çip → kasaya aktarılır.</li>
+      <li>Eksik çip → kasadan tamamlanır.</li>
+      <li>İşlem seçilen transaction code ile kasa kayıtlarına ve balansına yansır.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="24-masa-gün-değişimi">2.4. Masa Gün Değişimi</h3>
+
+<ul>
+  <li>Masalar tek tek veya topluca yeni güne geçirilir.</li>
+  <li>Masaların plaque ve cash sayımları kasa işlemlerine otomatik yansır.</li>
+  <li>Gün değişen masadaki işlemler artık <strong>yeni güne</strong> kaydedilir.</li>
+</ul>
+
+<h3 id="25-kasa-gün-değişimi">2.5. Kasa Gün Değişimi</h3>
+
+<ul>
+  <li>Kasa, son güne geçirilmedikçe üst bar’da <strong>Change Gaming Date</strong> butonu görünür.</li>
+  <li>Gün değişimi yapıldığında:
+    <ul>
+      <li>Üst bar <strong>yeşil</strong> olur.</li>
+      <li><code class="language-plaintext highlighter-rouge">2/2</code> → Tüm kasalar güncel.</li>
+      <li><code class="language-plaintext highlighter-rouge">8/8</code> → Tüm masalar güncel.</li>
+    </ul>
+  </li>
+  <li>Eksik varsa değerler <strong>kırmızı</strong> görünmeye devam eder.</li>
+</ul>
+
+<hr />
+
+<h2 id="3-tamamlanma-kriteri">3. Tamamlanma Kriteri</h2>
+
+<ul>
+  <li><strong>Tüm masalar</strong> + <strong>kasa</strong> son güne geçirildiğinde oyun günü değişimi tamamlanmış sayılır.</li>
+  <li>Bu andan itibaren tüm raporlar ve hesaplamalar yeni gün üzerinden yapılır.</li>
+</ul>
+
+<hr />
+
+<h2 id="4-görsel-durum-i̇puçları">4. Görsel Durum İpuçları</h2>
+
+<ul>
+  <li><strong>Yeşil</strong> → İşlem/fark yok, güncel.</li>
+  <li><strong>Turuncu</strong> → Sayım farkı var.</li>
+  <li><strong>Kırmızı</strong> → Henüz yeni güne geçirilmemiş kasa/masa.</li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+  
+
+  
+
+
+        
+
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-updated" datetime="2026-08-03">August 3, 2026</time></p>
+
+
+      </footer>
+
+      
+
+      
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://github.com/RIDOTTODEV" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">&copy; 2026 <a href="http://localhost:4000">Ridotto Docs</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

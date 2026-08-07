@@ -1,0 +1,603 @@
+
+
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.28.0 by Michael Rose
+  Copyright 2013-2026 Michael Rose - mademistakes.com | @mmistakes
+  Copyright 2024-2026 iBug - ibugone.com | @iBug
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+
+<!-- begin _includes/seo.html --><title>Player Operations - Ridotto Docs</title>
+<meta name="description" content="Ridotto Casino Management Sistemi Teknik ve yardım dökümanı">
+
+
+  <meta name="author" content="Support">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Ridotto Docs">
+<meta property="og:title" content="Player Operations">
+<meta property="og:url" content="http://localhost:4000/add-on/player-operations/">
+
+
+  <meta property="og:description" content="Ridotto Casino Management Sistemi Teknik ve yardım dökümanı">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/add-on/player-operations/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Ridotto Docs Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+<link rel="stylesheet" href="/assets/css/custom.css">
+
+<!-- Auto Image Zoom Script -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Create overlay element
+    const overlay = document.createElement('div');
+    overlay.className = 'image-overlay';
+    overlay.innerHTML = '<span class="close">&times;</span>';
+    document.body.appendChild(overlay);
+
+    // Add click event to all images in content
+    const images = document.querySelectorAll('.page__content img');
+    images.forEach(function(img) {
+        img.addEventListener('click', function() {
+            const clonedImg = img.cloneNode(true);
+            clonedImg.style.cursor = 'default';
+            
+            // Clear previous image and add new one
+            const existingImg = overlay.querySelector('img');
+            if (existingImg) {
+                existingImg.remove();
+            }
+            overlay.appendChild(clonedImg);
+            overlay.classList.add('active');
+        });
+    });
+
+    // Close overlay when clicking on it or close button
+    overlay.addEventListener('click', function(e) {
+        if (e.target === overlay || e.target.classList.contains('close')) {
+            overlay.classList.remove('active');
+        }
+    });
+
+    // Close overlay with ESC key
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            overlay.classList.remove('active');
+        }
+    });
+});
+</script>
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single" dir="ltr">
+    
+<nav class="skip-links" aria-label="Skip links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
+        
+        <a class="site-title" href="/">
+          Ridotto Docs
+          
+        </a>
+        <ul class="visible-links"></ul>
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+
+
+<div id="main" role="main">
+  
+
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+<nav class="nav__list">
+  
+<input id="ac-toc" name="accordion-toc" type="checkbox" />
+<label for="ac-toc">Toggle Menu</label>
+<ul class="nav__items">
+    
+      
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/ridotto/kurulum/"><span class="nav__sub-title">Ridotto</span></a>
+</summary>
+<ul>
+            
+<li><a href="/ridotto/kurulum/">Kurulum</a></li>
+            
+<li><a href="/ridotto/ozellikler/">Özellikler</a></li>
+            
+<li><a href="/ridotto/changegd/">Gün Değişimi</a></li>
+            
+<li><a href="/add-on/operations/customer-information/">Customer Information</a></li>
+            
+<li><a href="/add-on/operations/portfolio-management/">Portfolio Management</a></li>
+            
+<li><a href="/add-on/operations/blacklist-report/">Blacklist Report</a></li>
+            
+<li><a href="/add-on/operations/correction-infos-report/">Correction Infos Report</a></li>
+            
+<li><a href="/add-on/operations/player-lookup-audit-logs-report/">Player Lookup Audit Logs Report</a></li>
+            
+<li><a href="/add-on/guest-operations/hotel-guest-list/">Hotel Guest List</a></li>
+            
+<li><a href="/add-on/management-reports/active-floor-list/">Active Floor List</a></li>
+            
+<li><a href="/add-on/management-reports/active-floor-info/">Active Floor Info</a></li>
+            
+<li><a href="/add-on/management-reports/call-report/">Call Report</a></li>
+            
+<li><a href="/add-on/management-reports/player-win-loss-analysis/">Player Win Loss Analysis</a></li>
+            
+<li><a href="/add-on/pit/floor-result/">Floor Result</a></li>
+            
+<li><a href="/add-on/reports/player-lg-result/">Player LG Result</a></li>
+            
+<li><a href="/add-on/reports/time-in-out-report-by-player/">Time In-Out Report by Player</a></li>
+            
+<li><a href="/add-on/reports/time-in-out-report/">Time In-Out Report</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" open>
+<summary>
+<a href="/add-on/cage-operations/"><span class="nav__sub-title">Add On</span></a>
+</summary>
+<ul>
+            
+<li><a href="/add-on/cage-operations/">Cage Operations</a></li>
+            
+<li><a href="/add-on/player-operations/" class="active">Player Operations</a></li>
+            
+<li><a href="/add-on/in-out-report/">In-out Report</a></li>
+            
+<li><a href="/add-on/in-out-filtered-report/">In-out Filtered Report</a></li>
+            
+<li><a href="/add-on/in-out-detailed-inout-report/">In-out Detailed In/Out Report</a></li>
+            
+<li><a href="/add-on/in-out-detailed-net-report/">In-out Detailed Net Report</a></li>
+            
+<li><a href="/add-on/in-out-net-cash-summary-report/">In-out Net Cash Summary Report</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/pos/terminal/"><span class="nav__sub-title">POS</span></a>
+</summary>
+<ul>
+            
+<li><a href="/pos/terminal/">Terminal</a></li>
+            
+<li><a href="/pos/panel/">Panel</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/registrationapp/ozellikler/"><span class="nav__sub-title">Registration App</span></a>
+</summary>
+<ul>
+            
+<li><a href="/registrationapp/ozellikler/">Özellikler</a></li>
+            
+<li><a href="/registrationapp/check-in/">Check-In</a></li>
+            
+<li><a href="/registrationapp/carddesk-sign-in/">Carddesk Sign-In</a></li>
+            
+<li><a href="/registrationapp/search/">Search</a></li>
+            
+<li><a href="/registrationapp/adminpanel/">Admin Panel</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/checkinkioskapp/ozellikler/"><span class="nav__sub-title">Check-in Kiosk App</span></a>
+</summary>
+<ul>
+            
+<li><a href="/checkinkioskapp/ozellikler/">Özellikler</a></li>
+            
+<li><a href="/checkinkioskapp/idle-page/">Idle Page</a></li>
+            
+<li><a href="/checkinkioskapp/greetings-page/">Greetings Page</a></li>
+            
+<li><a href="/checkinkioskapp/missing-document-page/">Missing Document Page</a></li>
+            
+<li><a href="/checkinkioskapp/blacklist-page/">BlackList Page</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+    
+</ul>
+</nav>
+    
+  
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Player Operations">
+    
+    
+    <meta itemprop="dateModified" content="2026-08-03T21:51:03+03:00">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/add-on/player-operations/" itemprop="url">Player Operations
+</a>
+          </h1>
+          
+
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc" aria-label="Table of contents">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#player-operations">Player Operations</a><ul><li><a href="#overview">Overview</a></li><li><a href="#1-player-operations-ana-ekranı">1. Player Operations Ana Ekranı</a><ul><li><a href="#11-search-players">1.1 Search Players</a></li><li><a href="#12-cash-desk-summary">1.2 Cash Desk Summary</a></li></ul></li><li><a href="#2-player-detail-ekranı">2. Player Detail Ekranı</a><ul><li><a href="#21-oyuncu-bilgileri">2.1 Oyuncu Bilgileri</a><ul><li><a href="#durum-göstergeleri">Durum Göstergeleri</a></li></ul></li><li><a href="#22-ek-bilgiler">2.2 Ek Bilgiler</a></li></ul></li><li><a href="#23-i̇şlem-butonları">2.3 İşlem Butonları</a></li><li><a href="#3-cashless-ve-chip-i̇şlemleri">3. Cashless ve Chip İşlemleri</a><ul><li><a href="#31-tablar">3.1 Tablar</a></li><li><a href="#32-hesaplar">3.2 Hesaplar</a></li><li><a href="#33-i̇şlem-türleri">3.3 İşlem Türleri</a></li></ul></li><li><a href="#4-cage-transactions">4. Cage Transactions</a></li><li><a href="#örnek-senaryo">Örnek Senaryo</a></li></ul></li></ul>
+            </nav>
+          </aside>
+        
+        <h1 id="player-operations">Player Operations</h1>
+
+<h2 id="overview">Overview</h2>
+<p><strong>Player Operations</strong> modülü, kasadaki işlemleri oyuncular bazında yönetmek ve takip etmek için kullanılır. Bu ekran üzerinden oyuncuların <strong>cashless hesaplarına yatırma/çekme işlemleri</strong>, geçmiş işlemler, arama ve son aramalar gibi bilgiler görüntülenebilir.</p>
+
+<hr />
+
+<h2 id="1-player-operations-ana-ekranı">1. Player Operations Ana Ekranı</h2>
+
+<h3 id="11-search-players">1.1 Search Players</h3>
+<ul>
+  <li><strong>Arama Çubuğu</strong>: Oyuncuları <strong>isim, soyisim, e-posta veya telefon numarası</strong> ile aramayı sağlar.</li>
+  <li><strong>Last Searches</strong>: Son aranan oyuncular listelenir.</li>
+  <li>Her oyuncunun yanında hızlı erişim için bir <strong>sağ ok butonu</strong> bulunur.</li>
+</ul>
+
+<h3 id="12-cash-desk-summary">1.2 Cash Desk Summary</h3>
+<p>Kasa hareketlerinin özetini iki bölümde gösterir:</p>
+
+<ol>
+  <li><strong>Hesap Türüne Göre Özet</strong>
+    <ul>
+      <li>Account Type (Örn: Cashable)</li>
+      <li>Transaction Type (Deposit, Withdrawal vb.)</li>
+      <li>EUR ve TL bazında toplam tutar</li>
+    </ul>
+  </li>
+  <li><strong>Kasaya Göre Özet</strong>
+    <ul>
+      <li>Cashdesk adı (Örn: Main Cashdesk)</li>
+      <li>Account Type</li>
+      <li>Transaction Type</li>
+      <li>EUR ve TL tutarları</li>
+    </ul>
+  </li>
+</ol>
+
+<hr />
+
+<h2 id="2-player-detail-ekranı">2. Player Detail Ekranı</h2>
+
+<h3 id="21-oyuncu-bilgileri">2.1 Oyuncu Bilgileri</h3>
+<ul>
+  <li><strong>Fotoğraf</strong> (Varsayılan: No Photo)</li>
+  <li>Oyuncu Adı ve ID</li>
+  <li>Default Currency</li>
+  <li>Blacklist Durumu</li>
+  <li>Player Class ve Discount bilgisi (Oyuncuya özel Discount oranı belirlenmiş ise getirir)</li>
+  <li><strong>Son Görülme Tarihi</strong></li>
+</ul>
+
+<h4 id="durum-göstergeleri">Durum Göstergeleri</h4>
+<ul>
+  <li><strong>Is Active</strong>: Oyuncunun aktif olup olmadığını gösterir.</li>
+  <li><strong>Discount</strong>: Oyuncunun discount alabilir olup olmadığı durumu.</li>
+</ul>
+
+<h3 id="22-ek-bilgiler">2.2 Ek Bilgiler</h3>
+<ul>
+  <li><strong>Friends List</strong>: Oyuncunun arkadaş listesi</li>
+  <li><strong>General Notes</strong>: Genel notlar</li>
+  <li><strong>PR Notes</strong>: Halkla ilişkiler notları</li>
+</ul>
+
+<hr />
+
+<h2 id="23-i̇şlem-butonları">2.3 İşlem Butonları</h2>
+<ul>
+  <li><strong>Cage Transaction</strong>
+Oyuncu için cashless ve ya çip karşılığı olmayan işlerin girilebileceği formu açar</li>
+  <li><strong>In Out Transactions</strong>
+Oyuncu için tarih aralığına göre rapor sunar</li>
+  <li><strong>In Out Selected Name Report</strong><br />
+Oyuncunun tarih aralığına göre:
+    <ul>
+      <li>Masa ve slot oyun geçmişi &amp; sonuçları</li>
+      <li>Yatırım ve çekim toplamları</li>
+      <li>Expense &amp; fee giderleri</li>
+      <li>Otel konaklama, uçak bileti vb. harcamalar</li>
+    </ul>
+  </li>
+  <li><strong>Today</strong>: Bugünkü işlemleri filtreler</li>
+</ul>
+
+<hr />
+
+<h2 id="3-cashless-ve-chip-i̇şlemleri">3. Cashless ve Chip İşlemleri</h2>
+
+<h3 id="31-tablar">3.1 Tablar</h3>
+<ul>
+  <li><strong>Cashless</strong>: Slot makineleri için elektronik hesap işlemleri</li>
+  <li><strong>Chip</strong>: Masa oyunları için çip işlemleri</li>
+</ul>
+
+<h3 id="32-hesaplar">3.2 Hesaplar</h3>
+<p>Her para birimi için ayrı hesap kartı:</p>
+<ul>
+  <li>Gün içinde Toplam Giriş (Total In)</li>
+  <li>Gün içinde Toplam Çıkış (Total Out)</li>
+  <li><strong>Deposit</strong>: Para yatırma</li>
+  <li><strong>Withdraw</strong>: Para çekme</li>
+  <li><strong>History</strong>: İşlem geçmişi</li>
+</ul>
+
+<h3 id="33-i̇şlem-türleri">3.3 İşlem Türleri</h3>
+<ul>
+  <li>Cash</li>
+  <li>Credit</li>
+  <li>Çek</li>
+  <li>Banka Transferi</li>
+  <li>..</li>
+</ul>
+
+<hr />
+
+<h2 id="4-cage-transactions">4. Cage Transactions</h2>
+<p>Oyuncunun kasa işlemleri:</p>
+<ul>
+  <li><strong>Created At</strong>: İşlem tarihi</li>
+  <li><strong>Transaction Type</strong>: Paid / Received</li>
+  <li><strong>Trans Type</strong>: Player için Transaction Tipi</li>
+  <li><strong>Transaction Code</strong>: Kasa için Transaction kodu</li>
+  <li><strong>Amount</strong>: İşlem tutarı (para birimi ile)</li>
+  <li><strong>Station</strong>: İşlemin yapıldığı kasa</li>
+</ul>
+
+<p>Renk Kodları:</p>
+<ul>
+  <li><strong>Kırmızı</strong>: Paid (kasadan para çıkışı)</li>
+  <li><strong>Yeşil</strong>: Received (kasaya para girişi)</li>
+</ul>
+
+<hr />
+
+<h2 id="örnek-senaryo">Örnek Senaryo</h2>
+<ol>
+  <li>Oyuncu aranır veya son aramalardan seçilir.</li>
+  <li>Oyuncu detay sayfasına girilir.</li>
+  <li>Cashless veya Chip sekmesinden işlem yapılır.</li>
+  <li>Gerekirse <strong>In Out Selected Name Report</strong> ile geçmiş raporu alınır.</li>
+</ol>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+  
+
+  
+
+
+        
+
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-updated" datetime="2026-08-03">August 3, 2026</time></p>
+
+
+      </footer>
+
+      
+
+      
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://github.com/RIDOTTODEV" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">&copy; 2026 <a href="http://localhost:4000">Ridotto Docs</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

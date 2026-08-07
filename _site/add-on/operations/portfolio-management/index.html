@@ -1,0 +1,606 @@
+
+
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.28.0 by Michael Rose
+  Copyright 2013-2026 Michael Rose - mademistakes.com | @mmistakes
+  Copyright 2024-2026 iBug - ibugone.com | @iBug
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+
+<!-- begin _includes/seo.html --><title>Portfolio Management - Ridotto Docs</title>
+<meta name="description" content="Ridotto Casino Management Sistemi Teknik ve yardım dökümanı">
+
+
+  <meta name="author" content="Support">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Ridotto Docs">
+<meta property="og:title" content="Portfolio Management">
+<meta property="og:url" content="http://localhost:4000/add-on/operations/portfolio-management/">
+
+
+  <meta property="og:description" content="Ridotto Casino Management Sistemi Teknik ve yardım dökümanı">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/add-on/operations/portfolio-management/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Ridotto Docs Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+<link rel="stylesheet" href="/assets/css/custom.css">
+
+<!-- Auto Image Zoom Script -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Create overlay element
+    const overlay = document.createElement('div');
+    overlay.className = 'image-overlay';
+    overlay.innerHTML = '<span class="close">&times;</span>';
+    document.body.appendChild(overlay);
+
+    // Add click event to all images in content
+    const images = document.querySelectorAll('.page__content img');
+    images.forEach(function(img) {
+        img.addEventListener('click', function() {
+            const clonedImg = img.cloneNode(true);
+            clonedImg.style.cursor = 'default';
+            
+            // Clear previous image and add new one
+            const existingImg = overlay.querySelector('img');
+            if (existingImg) {
+                existingImg.remove();
+            }
+            overlay.appendChild(clonedImg);
+            overlay.classList.add('active');
+        });
+    });
+
+    // Close overlay when clicking on it or close button
+    overlay.addEventListener('click', function(e) {
+        if (e.target === overlay || e.target.classList.contains('close')) {
+            overlay.classList.remove('active');
+        }
+    });
+
+    // Close overlay with ESC key
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            overlay.classList.remove('active');
+        }
+    });
+});
+</script>
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single" dir="ltr">
+    
+<nav class="skip-links" aria-label="Skip links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
+        
+        <a class="site-title" href="/">
+          Ridotto Docs
+          
+        </a>
+        <ul class="visible-links"></ul>
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+
+
+<div id="main" role="main">
+  
+
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+<nav class="nav__list">
+  
+<input id="ac-toc" name="accordion-toc" type="checkbox" />
+<label for="ac-toc">Toggle Menu</label>
+<ul class="nav__items">
+    
+      
+      
+<li>
+          
+            
+<details class="nav__collapsible" open>
+<summary>
+<a href="/ridotto/kurulum/"><span class="nav__sub-title">Ridotto</span></a>
+</summary>
+<ul>
+            
+<li><a href="/ridotto/kurulum/">Kurulum</a></li>
+            
+<li><a href="/ridotto/ozellikler/">Özellikler</a></li>
+            
+<li><a href="/ridotto/changegd/">Gün Değişimi</a></li>
+            
+<li><a href="/add-on/operations/customer-information/">Customer Information</a></li>
+            
+<li><a href="/add-on/operations/portfolio-management/" class="active">Portfolio Management</a></li>
+            
+<li><a href="/add-on/operations/blacklist-report/">Blacklist Report</a></li>
+            
+<li><a href="/add-on/operations/correction-infos-report/">Correction Infos Report</a></li>
+            
+<li><a href="/add-on/operations/player-lookup-audit-logs-report/">Player Lookup Audit Logs Report</a></li>
+            
+<li><a href="/add-on/guest-operations/hotel-guest-list/">Hotel Guest List</a></li>
+            
+<li><a href="/add-on/management-reports/active-floor-list/">Active Floor List</a></li>
+            
+<li><a href="/add-on/management-reports/active-floor-info/">Active Floor Info</a></li>
+            
+<li><a href="/add-on/management-reports/call-report/">Call Report</a></li>
+            
+<li><a href="/add-on/management-reports/player-win-loss-analysis/">Player Win Loss Analysis</a></li>
+            
+<li><a href="/add-on/pit/floor-result/">Floor Result</a></li>
+            
+<li><a href="/add-on/reports/player-lg-result/">Player LG Result</a></li>
+            
+<li><a href="/add-on/reports/time-in-out-report-by-player/">Time In-Out Report by Player</a></li>
+            
+<li><a href="/add-on/reports/time-in-out-report/">Time In-Out Report</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/add-on/cage-operations/"><span class="nav__sub-title">Add On</span></a>
+</summary>
+<ul>
+            
+<li><a href="/add-on/cage-operations/">Cage Operations</a></li>
+            
+<li><a href="/add-on/player-operations/">Player Operations</a></li>
+            
+<li><a href="/add-on/in-out-report/">In-out Report</a></li>
+            
+<li><a href="/add-on/in-out-filtered-report/">In-out Filtered Report</a></li>
+            
+<li><a href="/add-on/in-out-detailed-inout-report/">In-out Detailed In/Out Report</a></li>
+            
+<li><a href="/add-on/in-out-detailed-net-report/">In-out Detailed Net Report</a></li>
+            
+<li><a href="/add-on/in-out-net-cash-summary-report/">In-out Net Cash Summary Report</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/pos/terminal/"><span class="nav__sub-title">POS</span></a>
+</summary>
+<ul>
+            
+<li><a href="/pos/terminal/">Terminal</a></li>
+            
+<li><a href="/pos/panel/">Panel</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/registrationapp/ozellikler/"><span class="nav__sub-title">Registration App</span></a>
+</summary>
+<ul>
+            
+<li><a href="/registrationapp/ozellikler/">Özellikler</a></li>
+            
+<li><a href="/registrationapp/check-in/">Check-In</a></li>
+            
+<li><a href="/registrationapp/carddesk-sign-in/">Carddesk Sign-In</a></li>
+            
+<li><a href="/registrationapp/search/">Search</a></li>
+            
+<li><a href="/registrationapp/adminpanel/">Admin Panel</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/checkinkioskapp/ozellikler/"><span class="nav__sub-title">Check-in Kiosk App</span></a>
+</summary>
+<ul>
+            
+<li><a href="/checkinkioskapp/ozellikler/">Özellikler</a></li>
+            
+<li><a href="/checkinkioskapp/idle-page/">Idle Page</a></li>
+            
+<li><a href="/checkinkioskapp/greetings-page/">Greetings Page</a></li>
+            
+<li><a href="/checkinkioskapp/missing-document-page/">Missing Document Page</a></li>
+            
+<li><a href="/checkinkioskapp/blacklist-page/">BlackList Page</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+    
+</ul>
+</nav>
+    
+  
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Portfolio Management">
+    
+    
+    <meta itemprop="dateModified" content="2026-08-03T21:51:03+03:00">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/add-on/operations/portfolio-management/" itemprop="url">Portfolio Management
+</a>
+          </h1>
+          
+
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc" aria-label="Table of contents">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#üst-panel-i̇şlemleri">Üst Panel İşlemleri</a><ul><li><a href="#portfolio-butonu">Portfolio Butonu</a></li><li><a href="#gift-report-butonu">Gift Report Butonu</a></li><li><a href="#excel-export-butonu">Excel Export Butonu</a></li></ul></li><li><a href="#filtreleme-sistemi">Filtreleme Sistemi</a><ul><li><a href="#temel-filtreler">Temel Filtreler</a><ul><li><a href="#with-result">With Result</a></li><li><a href="#find-by-special-dates-özel-tarih-filtreleri">Find By Special Dates (Özel Tarih Filtreleri)</a><ul><li><a href="#birthday-doğum-günü">Birthday (Doğum Günü)</a></li><li><a href="#spouse-birthday-eş-doğum-günü">Spouse Birthday (Eş Doğum Günü)</a></li><li><a href="#wedding-anniversary-evlilik-yıldönümü">Wedding Anniversary (Evlilik Yıldönümü)</a></li></ul></li></ul></li><li><a href="#tarih-seçimi">Tarih Seçimi</a></li><li><a href="#diğer-filtreler">Diğer Filtreler</a><ul><li><a href="#search-player">Search Player</a></li><li><a href="#rating-filtresi">Rating Filtresi</a></li></ul></li></ul></li><li><a href="#oyuncu-listesi-tablosu">Oyuncu Listesi Tablosu</a></li></ul>
+            </nav>
+          </aside>
+        
+        <p><img src="img_1.png" alt="img_1.png" /></p>
+
+<p>Portfolio Management sayfası, oyuncunun rating ve oyun result değerlerine göre kapsamlı bir arayüz sunar. Bu sayfa ile oyuncuları çeşitli kriterlere göre filtreleyebilir Excel formatında dışa aktarabilirsiniz.</p>
+
+<h2 id="üst-panel-i̇şlemleri">Üst Panel İşlemleri</h2>
+
+<h3 id="portfolio-butonu">Portfolio Butonu</h3>
+<ul>
+  <li><strong>İşlev</strong>: Portföy raporunu görüntülemek için kullanılır</li>
+  <li><strong>Açıklama</strong>: Seçili filtrelere göre oyuncuları listeler</li>
+</ul>
+
+<h3 id="gift-report-butonu">Gift Report Butonu</h3>
+<ul>
+  <li><strong>İşlev</strong>: Hediye raporlarını görüntülemek için kullanılır</li>
+  <li><strong>Açıklama</strong>: Oyunculara verilen hediyelerin detaylı raporunu sunar</li>
+</ul>
+
+<h3 id="excel-export-butonu">Excel Export Butonu</h3>
+<ul>
+  <li><strong>İşlev</strong>: Filtrelenmiş veriyi Excel formatında dışa aktarır</li>
+</ul>
+
+<h2 id="filtreleme-sistemi">Filtreleme Sistemi</h2>
+
+<h3 id="temel-filtreler">Temel Filtreler</h3>
+
+<h4 id="with-result">With Result</h4>
+<ul>
+  <li><strong>İşlev</strong>: Seçilen tarih aralığında oyun result bilgisini de hesaplar.</li>
+</ul>
+
+<h4 id="find-by-special-dates-özel-tarih-filtreleri">Find By Special Dates (Özel Tarih Filtreleri)</h4>
+<p>Oyuncuları özel günlerine göre filtreleme seçenekleri:</p>
+
+<h5 id="birthday-doğum-günü">Birthday (Doğum Günü)</h5>
+<ul>
+  <li><strong>İşlev</strong>: Doğum günü olan oyuncuları filtreler</li>
+</ul>
+
+<h5 id="spouse-birthday-eş-doğum-günü">Spouse Birthday (Eş Doğum Günü)</h5>
+<ul>
+  <li><strong>İşlev</strong>: Eşinin doğum günü olan oyuncuları filtreler</li>
+</ul>
+
+<h5 id="wedding-anniversary-evlilik-yıldönümü">Wedding Anniversary (Evlilik Yıldönümü)</h5>
+<ul>
+  <li><strong>İşlev</strong>: Evlilik yıldönümü olan oyuncuları filtreler</li>
+</ul>
+
+<h3 id="tarih-seçimi">Tarih Seçimi</h3>
+<ul>
+  <li><strong>İşlev</strong>: Belirli bir tarih aralığını seçmenizi sağlar</li>
+</ul>
+
+<h3 id="diğer-filtreler">Diğer Filtreler</h3>
+
+<h4 id="search-player">Search Player</h4>
+<ul>
+  <li><strong>İşlev</strong>: Oyuncu adına göre arama yapar</li>
+</ul>
+
+<h4 id="rating-filtresi">Rating Filtresi</h4>
+<ul>
+  <li><strong>İşlev</strong>: Oyuncu rating’ine göre filtreleme</li>
+</ul>
+
+<h2 id="oyuncu-listesi-tablosu">Oyuncu Listesi Tablosu</h2>
+
+<ul>
+  <li><strong>Player Name (Oyuncu Adı)</strong>: Ad ve soyad bilgisi</li>
+  <li><strong>Birth Date (Doğum Tarihi)</strong>: Oyuncunun doğum tarihi</li>
+  <li><strong>Email</strong>: E-posta adresi</li>
+  <li><strong>Phone Number1 (Telefon 1)</strong>: Birincil telefon numarası</li>
+  <li><strong>Phone Number2 (Telefon 2)</strong>: İkincil telefon numarası</li>
+  <li><strong>Spouse Birth Date (Eş Doğum Tarihi)</strong>: Eşin doğum tarihi, boş ise “-“</li>
+  <li><strong>Wedding Date (Evlilik Tarihi)</strong>: Evlilik tarihi, boş ise “-“</li>
+  <li><strong>Gift (Hediye)</strong>: Hediye durumu (Var/Yok)</li>
+  <li><strong>Is Delivered (Teslim Edildi Mi)</strong>: Hediye teslim durumu (Evet/Hayır)</li>
+  <li><strong>Planned Date (Planlanan Tarih)</strong>: Hediye teslim planı</li>
+  <li><strong>Given Date (Verilme Tarihi)</strong>: Hedivenin verilme tarihi</li>
+  <li><strong>Nation (Uyruk)</strong>: Oyuncunun uyruğu (KKTC, Türkiye, Rum)</li>
+  <li><strong>Rating (Değerlendirme)</strong>: Oyuncu rating sınıfı (A, B, C, D)</li>
+  <li><strong>Slot Drop</strong>: Slot oyunlarındaki toplam drop miktarı</li>
+  <li><strong>Lg Drop (Live Game Drop)</strong>: Live game oyunlarındaki toplam drop miktarı</li>
+  <li><strong>Slot Turnover</strong>: Slot oyunlarındaki toplam bahis miktarı</li>
+  <li><strong>Lg Turnover</strong>: Live game oyunlarındaki toplam bahis miktarı</li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+  
+    
+
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#management" class="page__taxonomy-item p-category" rel="tag">Management</a><span class="sep">, </span>
+    
+      <a href="/tags/#player" class="page__taxonomy-item p-category" rel="tag">Player</a><span class="sep">, </span>
+    
+      <a href="/tags/#portfolio" class="page__taxonomy-item p-category" rel="tag">Portfolio</a>
+    
+    </span>
+  </p>
+
+
+  
+
+  
+    
+
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#operations" class="page__taxonomy-item p-category" rel="tag">Operations</a>
+    
+    </span>
+  </p>
+
+
+  
+
+
+        
+
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-updated" datetime="2026-08-03">August 3, 2026</time></p>
+
+
+      </footer>
+
+      
+
+      
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://github.com/RIDOTTODEV" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">&copy; 2026 <a href="http://localhost:4000">Ridotto Docs</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

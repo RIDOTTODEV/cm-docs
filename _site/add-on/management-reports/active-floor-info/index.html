@@ -1,0 +1,596 @@
+
+
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.28.0 by Michael Rose
+  Copyright 2013-2026 Michael Rose - mademistakes.com | @mmistakes
+  Copyright 2024-2026 iBug - ibugone.com | @iBug
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+
+<!-- begin _includes/seo.html --><title>Active Floor Info - Ridotto Docs</title>
+<meta name="description" content="Ridotto Casino Management Sistemi Teknik ve yardım dökümanı">
+
+
+  <meta name="author" content="Support">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Ridotto Docs">
+<meta property="og:title" content="Active Floor Info">
+<meta property="og:url" content="http://localhost:4000/add-on/management-reports/active-floor-info/">
+
+
+  <meta property="og:description" content="Ridotto Casino Management Sistemi Teknik ve yardım dökümanı">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/add-on/management-reports/active-floor-info/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Ridotto Docs Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+<link rel="stylesheet" href="/assets/css/custom.css">
+
+<!-- Auto Image Zoom Script -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Create overlay element
+    const overlay = document.createElement('div');
+    overlay.className = 'image-overlay';
+    overlay.innerHTML = '<span class="close">&times;</span>';
+    document.body.appendChild(overlay);
+
+    // Add click event to all images in content
+    const images = document.querySelectorAll('.page__content img');
+    images.forEach(function(img) {
+        img.addEventListener('click', function() {
+            const clonedImg = img.cloneNode(true);
+            clonedImg.style.cursor = 'default';
+            
+            // Clear previous image and add new one
+            const existingImg = overlay.querySelector('img');
+            if (existingImg) {
+                existingImg.remove();
+            }
+            overlay.appendChild(clonedImg);
+            overlay.classList.add('active');
+        });
+    });
+
+    // Close overlay when clicking on it or close button
+    overlay.addEventListener('click', function(e) {
+        if (e.target === overlay || e.target.classList.contains('close')) {
+            overlay.classList.remove('active');
+        }
+    });
+
+    // Close overlay with ESC key
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            overlay.classList.remove('active');
+        }
+    });
+});
+</script>
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single" dir="ltr">
+    
+<nav class="skip-links" aria-label="Skip links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
+        
+        <a class="site-title" href="/">
+          Ridotto Docs
+          
+        </a>
+        <ul class="visible-links"></ul>
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+
+
+<div id="main" role="main">
+  
+
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+<nav class="nav__list">
+  
+<input id="ac-toc" name="accordion-toc" type="checkbox" />
+<label for="ac-toc">Toggle Menu</label>
+<ul class="nav__items">
+    
+      
+      
+<li>
+          
+            
+<details class="nav__collapsible" open>
+<summary>
+<a href="/ridotto/kurulum/"><span class="nav__sub-title">Ridotto</span></a>
+</summary>
+<ul>
+            
+<li><a href="/ridotto/kurulum/">Kurulum</a></li>
+            
+<li><a href="/ridotto/ozellikler/">Özellikler</a></li>
+            
+<li><a href="/ridotto/changegd/">Gün Değişimi</a></li>
+            
+<li><a href="/add-on/operations/customer-information/">Customer Information</a></li>
+            
+<li><a href="/add-on/operations/portfolio-management/">Portfolio Management</a></li>
+            
+<li><a href="/add-on/operations/blacklist-report/">Blacklist Report</a></li>
+            
+<li><a href="/add-on/operations/correction-infos-report/">Correction Infos Report</a></li>
+            
+<li><a href="/add-on/operations/player-lookup-audit-logs-report/">Player Lookup Audit Logs Report</a></li>
+            
+<li><a href="/add-on/guest-operations/hotel-guest-list/">Hotel Guest List</a></li>
+            
+<li><a href="/add-on/management-reports/active-floor-list/">Active Floor List</a></li>
+            
+<li><a href="/add-on/management-reports/active-floor-info/" class="active">Active Floor Info</a></li>
+            
+<li><a href="/add-on/management-reports/call-report/">Call Report</a></li>
+            
+<li><a href="/add-on/management-reports/player-win-loss-analysis/">Player Win Loss Analysis</a></li>
+            
+<li><a href="/add-on/pit/floor-result/">Floor Result</a></li>
+            
+<li><a href="/add-on/reports/player-lg-result/">Player LG Result</a></li>
+            
+<li><a href="/add-on/reports/time-in-out-report-by-player/">Time In-Out Report by Player</a></li>
+            
+<li><a href="/add-on/reports/time-in-out-report/">Time In-Out Report</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/add-on/cage-operations/"><span class="nav__sub-title">Add On</span></a>
+</summary>
+<ul>
+            
+<li><a href="/add-on/cage-operations/">Cage Operations</a></li>
+            
+<li><a href="/add-on/player-operations/">Player Operations</a></li>
+            
+<li><a href="/add-on/in-out-report/">In-out Report</a></li>
+            
+<li><a href="/add-on/in-out-filtered-report/">In-out Filtered Report</a></li>
+            
+<li><a href="/add-on/in-out-detailed-inout-report/">In-out Detailed In/Out Report</a></li>
+            
+<li><a href="/add-on/in-out-detailed-net-report/">In-out Detailed Net Report</a></li>
+            
+<li><a href="/add-on/in-out-net-cash-summary-report/">In-out Net Cash Summary Report</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/pos/terminal/"><span class="nav__sub-title">POS</span></a>
+</summary>
+<ul>
+            
+<li><a href="/pos/terminal/">Terminal</a></li>
+            
+<li><a href="/pos/panel/">Panel</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/registrationapp/ozellikler/"><span class="nav__sub-title">Registration App</span></a>
+</summary>
+<ul>
+            
+<li><a href="/registrationapp/ozellikler/">Özellikler</a></li>
+            
+<li><a href="/registrationapp/check-in/">Check-In</a></li>
+            
+<li><a href="/registrationapp/carddesk-sign-in/">Carddesk Sign-In</a></li>
+            
+<li><a href="/registrationapp/search/">Search</a></li>
+            
+<li><a href="/registrationapp/adminpanel/">Admin Panel</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/checkinkioskapp/ozellikler/"><span class="nav__sub-title">Check-in Kiosk App</span></a>
+</summary>
+<ul>
+            
+<li><a href="/checkinkioskapp/ozellikler/">Özellikler</a></li>
+            
+<li><a href="/checkinkioskapp/idle-page/">Idle Page</a></li>
+            
+<li><a href="/checkinkioskapp/greetings-page/">Greetings Page</a></li>
+            
+<li><a href="/checkinkioskapp/missing-document-page/">Missing Document Page</a></li>
+            
+<li><a href="/checkinkioskapp/blacklist-page/">BlackList Page</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+    
+</ul>
+</nav>
+    
+  
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Active Floor Info">
+    
+    
+    <meta itemprop="dateModified" content="2026-08-03T21:51:03+03:00">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/add-on/management-reports/active-floor-info/" itemprop="url">Active Floor Info
+</a>
+          </h1>
+          
+
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc" aria-label="Table of contents">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#genel-bakış">Genel Bakış</a><ul><li><a href="#lg-result-by-game">Lg Result By Game</a><ul><li><a href="#tablo-sütunları">Tablo Sütunları</a></li></ul></li><li><a href="#lg-info">Lg Info</a></li><li><a href="#slot-info">Slot Info</a></li><li><a href="#live-game-masa-durumu">Live Game Masa Durumu</a></li><li><a href="#slot-makine-durumu">Slot Makine Durumu</a></li><li><a href="#active-tables">Active Tables</a></li></ul></li></ul>
+            </nav>
+          </aside>
+        
+        <p>Active Floor Info sayfası, casino floor’unda bulunan tüm slot makineleri ve live game masalarının detaylı bilgilerini ve durumlarını görüntülemek için kullanılır.</p>
+
+<h2 id="genel-bakış">Genel Bakış</h2>
+<p><img src="img_1.png" alt="img_1.png" />
+Bu rapor, casino yöneticilerinin floor üzerindeki tüm oyun ekipmanlarının durumunu tek bir ekrandan takip etmesini sağlar. Hem slot makineleri hem de live game masaları için kapsamlı bilgi sunar.</p>
+
+<h3 id="lg-result-by-game">Lg Result By Game</h3>
+<p><img src="img_2.png" alt="img_2.png" /></p>
+
+<ul>
+  <li><strong>Cash</strong> : Live game masalarında oyuncuların cash drop toplamı</li>
+  <li><strong>Plaque</strong> : Live game masalarında oyuncuların plaq drop toplamı</li>
+</ul>
+
+<h4 id="tablo-sütunları">Tablo Sütunları</h4>
+<ul>
+  <li><strong>Game</strong> : Oyun türü (Blackjack, Roulette, Poker vb.)</li>
+  <li><strong>T.Cash</strong> : Toplam cash drop</li>
+  <li><strong>T.Plaque</strong> : Toplam plaque drop</li>
+  <li><strong>T.Drop</strong> : Toplam Drop(cash drop + plaque drop)</li>
+  <li><strong>TResult</strong> : Oyun result bilgisi (casino açısından)</li>
+</ul>
+
+<h3 id="lg-info">Lg Info</h3>
+<p><img src="img_3.png" alt="img_3.png" /></p>
+
+<ul>
+  <li><strong>Tbl/Player</strong>: Aktif olan lg masa sayısı ve oyuncu sayısı</li>
+  <li><strong>TotalBet</strong>: Aktif masalarda oynanan toplam bahis miktarı(Oyuncuların avg bet toplamı)</li>
+  <li><strong>Win/Min</strong>: Aktif masalarda dakikada casino kazancı (oyuncuların avg bet toplamı / oyun süresi * oyun house edge değeri)</li>
+  <li><strong>AvgBet</strong>: Aktif masalarda oynanan ortalama bahis miktarı (Toplam bet / oyuncu sayısı)</li>
+  <li><strong>Lg Drop</strong>: Tüm gün yapılan toplam drop miktarı(cash+plaque)</li>
+  <li><strong>Lg Result</strong>: Tüm gün oyun sonucu(casino açısından)</li>
+</ul>
+
+<h3 id="slot-info">Slot Info</h3>
+<p><img src="img_4.png" alt="img_4.png" /></p>
+
+<ul>
+  <li><strong>Players</strong>: Slot makinelerinde oturan toplam oyuncu sayısı</li>
+  <li><strong>TotalBet</strong>: Slot makinelerinde oynanan toplam bahis miktarı</li>
+  <li><strong>Win/Min</strong>: Slot makinelerinde dakikada casino kazancı (Toplam bet / oyun süresi)</li>
+  <li><strong>AvgBet</strong>: Slot makinelerinde oynanan ortalama bahis miktarı (Toplam bet / oyuncu sayısı)</li>
+  <li><strong>SL Turnover</strong>: Slot makinelerinde toplam bet miktarı</li>
+  <li><strong>SL Drop</strong>: Slot makinelerinde toplam drop miktarı</li>
+  <li><strong>SL Result</strong>: Slot makinelerinde oyun sonucu</li>
+</ul>
+
+<h3 id="live-game-masa-durumu">Live Game Masa Durumu</h3>
+<p><img src="img_5.png" alt="img_5.png" /></p>
+
+<p>Live game maslarında aktif olarak oturan oyuncuların bilgisini verir.</p>
+
+<ul>
+  <li><strong>Table.N</strong>: Masa adı</li>
+  <li><strong>Avg.B</strong>: Ortalama bahis miktarı</li>
+  <li><strong>Chips.I.P</strong>: Cebindeki toplam çip ve plak miktarı</li>
+  <li><strong>Cash.D</strong>: Cash drop miktarı</li>
+  <li><strong>Plaque.D</strong>: Plaque drop miktarı</li>
+  <li><strong>P</strong>: Portfolyo durumu (Rating değerinin oluşup oluşmadığını gösterir)</li>
+  <li><strong>I</strong>: İletişim bilgilerinin tam olup olmadığı bilgisini verir(Telefon numarası, doğum tarihi)</li>
+</ul>
+
+<h3 id="slot-makine-durumu">Slot Makine Durumu</h3>
+<p><img src="img_6.png" alt="img_6.png" />
+Slot makinelerinde aktif olarak oturan oyuncuların bilgisini verir.</p>
+
+<ul>
+  <li><strong>T.Over</strong>: Toplam bet miktarı</li>
+  <li><strong>Avg.B</strong>: Ortalama bahis miktarı</li>
+  <li><strong>Floor.N</strong>: Floor numarası</li>
+  <li><strong>P</strong>: Portfolyo durumu (Rating değerinin oluşup oluşmadığını gösterir)</li>
+  <li><strong>I</strong>: İletişim bilgilerinin tam olup olmadığı bilgisini verir</li>
+</ul>
+
+<h3 id="active-tables">Active Tables</h3>
+<p><img src="img_8.png" alt="img_8.png" /></p>
+
+<p>Bu bölümde, casino floor’unda aktif olan tüm oyun masalarının detaylı bilgileri görüntülenir.</p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+  
+    
+
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#floor-info" class="page__taxonomy-item p-category" rel="tag">Floor Info</a><span class="sep">, </span>
+    
+      <a href="/tags/#management" class="page__taxonomy-item p-category" rel="tag">Management</a>
+    
+    </span>
+  </p>
+
+
+  
+
+  
+    
+
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#management-reports" class="page__taxonomy-item p-category" rel="tag">Management Reports</a>
+    
+    </span>
+  </p>
+
+
+  
+
+
+        
+
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-updated" datetime="2026-08-03">August 3, 2026</time></p>
+
+
+      </footer>
+
+      
+
+      
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://github.com/RIDOTTODEV" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">&copy; 2026 <a href="http://localhost:4000">Ridotto Docs</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
