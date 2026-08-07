@@ -93,6 +93,8 @@
 .nav__collapsible summary {
   cursor: pointer;
   list-style: none;
+  padding-left: 0;
+  margin-left: 0;
 }
 
 .nav__collapsible summary::-webkit-details-marker {
@@ -102,9 +104,10 @@
 .nav__collapsible summary::before {
   content: "▶";
   display: inline-block;
-  margin-right: 0.4em;
+  margin-right: 0.3em;
   font-size: 0.7em;
   transition: transform 0.2s ease;
+  vertical-align: middle;
 }
 
 .nav__collapsible[open] summary::before {
@@ -129,7 +132,7 @@
 
 /* Sadece aktif (tıklanmış/bulunulan) sayfa renkli */
 .nav__collapsible ul li a.active {
- color: #2563eb;
+  color: #2563eb;
   font-weight: 600;
 }
 /* ============================================
@@ -168,14 +171,15 @@
   }
 }
 .nav__collapsible ul {
-  padding-left: 2.2em;   /* daha fazla içeri kaydırma - RIDOTTO'nun ortasına denk gelsin */
-  padding-right: 0.8em;  /* sağdaki çizgiden boşluk */
-  margin-top: 0.4em;
+  padding-left: 1.1em;
+  padding-right: 0.8em;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
 }
 
 .nav__collapsible ul li {
-  margin-bottom: 0.4em;
-  margin-right: 0.3em;   /* ekstra sağ boşluk */
+  margin-bottom: 0.2em;
+  margin-right: 0.3em;
 }
 
 //Homepage 

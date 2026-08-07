@@ -64,3 +64,39 @@ docs:
         url: /pos/terminal/
       - title: "Panel"
         url: /pos/panel/
+
+  - title: "Registration App"
+    url: /registrationapp/
+    children:
+      - title: "Özellikler"
+        url: /registrationapp/ozellikler/
+      - title: "Check-In"
+        url: /registrationapp/check-in/
+      - title: "Carddesk Sign-In"
+        url: /registrationapp/carddesk-sign-in/
+      - title: "Search"
+        url: /registrationapp/search/
+      - title: "Admin Panel"
+        url: /registrationapp/adminpanel/
+        children:
+          - title: "Kullanıcı Yönetimi"
+            url: /registrationapp/adminpanel/kullanici-yonetimi/
+          - title: "Rol ve Yetkilendirme"
+            url: /registrationapp/adminpanel/rol-ve-yetkilendirme/
+          - title: "Rapor ve Log Yönetimi"
+            url: /registrationapp/adminpanel/rapor-ve-log-yonetimi/
+
+  - title: "Check-in Kiosk App"
+    url: /checkinkioskapp/
+    children:
+      - title: "Özellikler"
+        url: /checkinkioskapp/ozellikler/
+      - title: "Idle Page"
+        url: /checkinkioskapp/idle-page/
+      - title: "Greetings Page"
+        url: /checkinkioskapp/greetings-page/
+      - title: "Missing Document Page"
+        url: /checkinkioskapp/missing-document-page/
+      - title: "BlackList Page"
+        url: /checkinkioskapp/blacklist-page/
+     

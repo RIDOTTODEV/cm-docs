@@ -7,12 +7,6 @@ permalink: /add-on/guest-operations/hotel-guest-list/
 read_time: true
 toc: true
 toc_sticky: true
-categories:
-  - Guest Operations
-tags:
-  - Hotel
-  - Guest
-  - Reservation
 ---
 
 ![img.png](img.png)
