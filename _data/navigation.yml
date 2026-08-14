@@ -57,13 +57,37 @@ docs:
       - title: "In-out Net Cash Summary Report"
         url: /add-on/in-out-net-cash-summary-report/
 
-  - title: "POS"
-    url: /pos/
+  - title: "Pasha POS Kiosk"
+    url: /RubyPosApp/
     children:
-      - title: "Terminal"
-        url: /pos/terminal/
-      - title: "Panel"
-        url: /pos/panel/
+      - title: "login"
+        url: /RubyPosApp/login/
+      - title: "Özellikler"
+        url: /RubyPosApp/ozellikler/
+      - title: "NewOrder"
+        url: /RubyPosApp/neworder/
+      - title: "OrdersPage"
+        url: /RubyPosApp/orderspage/
+      - title: "Settings"
+        url: /RubyPosApp/settings/
+
+  - title: "Pasha POS Panel"
+    url: /RubyPosPanel/
+    children:
+      - title: "Özellikler"
+        url: /RubyPosPanel/ozellikler/  
+      - title : "Orders"
+        url : /RubyPosPanel/orders/
+      - title : "Stock Management"
+        url : /RubyPosPanel/StockManagement/
+      - title: "Reports"
+        url: /RubyPosPanel/Reports/
+      - title: "Product Definitions"
+        url: /RubyPosPanel/ProductDefinitions/
+      - title : "Definitions"
+        url : /RubyPosPanel/Definitions/
+      - title : "Settings"
+        url : /RubyPosPanel/Settings/
 
   - title: "Registration App"
     url: /registrationapp/
