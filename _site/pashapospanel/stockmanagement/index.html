@@ -1,0 +1,602 @@
+
+
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.28.0 by Michael Rose
+  Copyright 2013-2026 Michael Rose - mademistakes.com | @mmistakes
+  Copyright 2024-2026 iBug - ibugone.com | @iBug
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+
+<!-- begin _includes/seo.html --><title>Stock Management - Ridotto Docs</title>
+<meta name="description" content="Ridotto Casino Management Sistemi Teknik ve yardım dökümanı">
+
+
+  <meta name="author" content="Support">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Ridotto Docs">
+<meta property="og:title" content="Stock Management">
+<meta property="og:url" content="http://localhost:4000/pashapospanel/stockmanagement/">
+
+
+  <meta property="og:description" content="Ridotto Casino Management Sistemi Teknik ve yardım dökümanı">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/pashapospanel/stockmanagement/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Ridotto Docs Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+<link rel="stylesheet" href="/assets/css/custom.css">
+
+<!-- Auto Image Zoom Script -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Create overlay element
+    const overlay = document.createElement('div');
+    overlay.className = 'image-overlay';
+    overlay.innerHTML = '<span class="close">&times;</span>';
+    document.body.appendChild(overlay);
+
+    // Add click event to all images in content
+    const images = document.querySelectorAll('.page__content img');
+    images.forEach(function(img) {
+        img.addEventListener('click', function() {
+            const clonedImg = img.cloneNode(true);
+            clonedImg.style.cursor = 'default';
+            
+            // Clear previous image and add new one
+            const existingImg = overlay.querySelector('img');
+            if (existingImg) {
+                existingImg.remove();
+            }
+            overlay.appendChild(clonedImg);
+            overlay.classList.add('active');
+        });
+    });
+
+    // Close overlay when clicking on it or close button
+    overlay.addEventListener('click', function(e) {
+        if (e.target === overlay || e.target.classList.contains('close')) {
+            overlay.classList.remove('active');
+        }
+    });
+
+    // Close overlay with ESC key
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            overlay.classList.remove('active');
+        }
+    });
+});
+</script>
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single" dir="ltr">
+    
+<nav class="skip-links" aria-label="Skip links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
+        
+        <a class="site-title" href="/">
+          Ridotto Docs
+          
+        </a>
+        <ul class="visible-links"></ul>
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+
+
+<div id="main" role="main">
+  
+
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+<nav class="nav__list">
+  
+<input id="ac-toc" name="accordion-toc" type="checkbox" />
+<label for="ac-toc">Toggle Menu</label>
+<ul class="nav__items">
+    
+      
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/ridotto/kurulum/"><span class="nav__sub-title">Ridotto</span></a>
+</summary>
+<ul>
+            
+<li><a href="/ridotto/kurulum/">Kurulum</a></li>
+            
+<li><a href="/ridotto/ozellikler/">Özellikler</a></li>
+            
+<li><a href="/ridotto/changegd/">Gün Değişimi</a></li>
+            
+<li><a href="/add-on/operations/customer-information/">Customer Information</a></li>
+            
+<li><a href="/add-on/operations/portfolio-management/">Portfolio Management</a></li>
+            
+<li><a href="/add-on/operations/blacklist-report/">Blacklist Report</a></li>
+            
+<li><a href="/add-on/operations/correction-infos-report/">Correction Infos Report</a></li>
+            
+<li><a href="/add-on/operations/player-lookup-audit-logs-report/">Player Lookup Audit Logs Report</a></li>
+            
+<li><a href="/add-on/guest-operations/hotel-guest-list/">Hotel Guest List</a></li>
+            
+<li><a href="/add-on/management-reports/active-floor-list/">Active Floor List</a></li>
+            
+<li><a href="/add-on/management-reports/active-floor-info/">Active Floor Info</a></li>
+            
+<li><a href="/add-on/management-reports/call-report/">Call Report</a></li>
+            
+<li><a href="/add-on/management-reports/player-win-loss-analysis/">Player Win Loss Analysis</a></li>
+            
+<li><a href="/add-on/pit/floor-result/">Floor Result</a></li>
+            
+<li><a href="/add-on/reports/player-lg-result/">Player LG Result</a></li>
+            
+<li><a href="/add-on/reports/time-in-out-report-by-player/">Time In-Out Report by Player</a></li>
+            
+<li><a href="/add-on/reports/time-in-out-report/">Time In-Out Report</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/add-on/cage-operations/"><span class="nav__sub-title">Add On</span></a>
+</summary>
+<ul>
+            
+<li><a href="/add-on/cage-operations/">Cage Operations</a></li>
+            
+<li><a href="/add-on/player-operations/">Player Operations</a></li>
+            
+<li><a href="/add-on/in-out-report/">In-out Report</a></li>
+            
+<li><a href="/add-on/in-out-filtered-report/">In-out Filtered Report</a></li>
+            
+<li><a href="/add-on/in-out-detailed-inout-report/">In-out Detailed In/Out Report</a></li>
+            
+<li><a href="/add-on/in-out-detailed-net-report/">In-out Detailed Net Report</a></li>
+            
+<li><a href="/add-on/in-out-net-cash-summary-report/">In-out Net Cash Summary Report</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/pashaposkiosk/login/"><span class="nav__sub-title">Pasha POS Kiosk</span></a>
+</summary>
+<ul>
+            
+<li><a href="/pashaposkiosk/login/">login</a></li>
+            
+<li><a href="/pashaposkiosk/ozellikler/">Özellikler</a></li>
+            
+<li><a href="/pashaposkiosk/neworder/">NewOrder</a></li>
+            
+<li><a href="/pashaposkiosk/orderspage/">OrdersPage</a></li>
+            
+<li><a href="/pashaposkiosk/settings/">Settings</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" open>
+<summary>
+<a href="/pashapospanel/ozellikler/"><span class="nav__sub-title">Pasha POS Panel</span></a>
+</summary>
+<ul>
+            
+<li><a href="/pashapospanel/ozellikler/">Özellikler</a></li>
+            
+<li><a href="/pashapospanel/orders/">Orders</a></li>
+            
+<li><a href="/pashapospanel/stockmanagement/" class="active">Stock Management</a></li>
+            
+<li><a href="/pashapospanel/Reports/">Reports</a></li>
+            
+<li><a href="/pashapospanel/ProductDefinitions/">Product Definitions</a></li>
+            
+<li><a href="/pashapospanel/Definitions/">Definitions</a></li>
+            
+<li><a href="/pashapospanel/Settings/">Settings</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/pashakaptanpanel/ozellikler/"><span class="nav__sub-title">Pasha Kaptan Panel</span></a>
+</summary>
+<ul>
+            
+<li><a href="/pashakaptanpanel/ozellikler/">Özellikler</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/registrationapp/ozellikler/"><span class="nav__sub-title">Registration App</span></a>
+</summary>
+<ul>
+            
+<li><a href="/registrationapp/ozellikler/">Özellikler</a></li>
+            
+<li><a href="/registrationapp/check-in/">Check-In</a></li>
+            
+<li><a href="/registrationapp/carddesk-sign-in/">Carddesk Sign-In</a></li>
+            
+<li><a href="/registrationapp/search/">Search</a></li>
+            
+<li><a href="/registrationapp/adminpanel/">Admin Panel</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/checkinkioskapp/ozellikler/"><span class="nav__sub-title">Check-in Kiosk App</span></a>
+</summary>
+<ul>
+            
+<li><a href="/checkinkioskapp/ozellikler/">Özellikler</a></li>
+            
+<li><a href="/checkinkioskapp/idle-page/">Idle Page</a></li>
+            
+<li><a href="/checkinkioskapp/greetings-page/">Greetings Page</a></li>
+            
+<li><a href="/checkinkioskapp/missing-document-page/">Missing Document Page</a></li>
+            
+<li><a href="/checkinkioskapp/blacklist-page/">BlackList Page</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+    
+</ul>
+</nav>
+    
+  
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Stock Management">
+    
+    
+    <meta itemprop="dateModified" content="2026-08-20T15:15:16+03:00">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/pashapospanel/stockmanagement/" itemprop="url">Stock Management
+</a>
+          </h1>
+          
+
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc" aria-label="Table of contents">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#stock-managment">Stock Managment</a><ul><li><a href="#stock-overview">Stock Overview</a></li><li><a href="#stock-in">Stock In</a></li><li><a href="#stock-out">Stock Out</a></li><li><a href="#transfer">Transfer</a></li><li><a href="#count">Count</a></li><li><a href="#count-history">Count History</a></li><li><a href="#movements">Movements</a></li></ul></li></ul>
+            </nav>
+          </aside>
+        
+        <h2 id="stock-managment">Stock Managment</h2>
+
+<p>Stock Management bölümü, casino içerisinde bulunan ürünlerin stok takibinin yapılmasını sağlayan paneldir. Bu bölüm üzerinden hangi üründen kaç adet bulunduğu takip edilebilir.</p>
+
+<p>Stock In işlemi ile stoğa yeni ürünler eklenerek stok miktarı güncellenir. Stock Out işlemi ise zayi olan veya kaybolan ürünlerin stoktan düşülmesini sağlamak için kullanılır. Böylece ürünlerin mevcut stok durumu düzenli olarak takip edilebilir.</p>
+
+<h3 id="stock-overview">Stock Overview</h3>
+
+<p>Panelin ilk sayfasında Stock Overview bölümü bulunmaktadır. Bu bölümde, casino içerisindeki ürünlerin stok durumlarının görüntülendiği uzun bir ürün tablosu yer alır.</p>
+
+<p>Tabloda ürünlere ait çeşitli bilgiler bulunmaktadır. Bunlar arasında Product Name, ürünün bağlı olduğu Tag, Shop, Total ve Movement gibi alanlar yer alır. Total alanı, ilgili ürünün casino genelinde toplam ne kadar stokta bulunduğunu gösterir. Bunun yanında, ürünün hangi bar veya depoda ne kadar bulunduğu da görüntülenebilir. Tablonun en sağında ise stok hareketlerinin takip edilebildiği Movement ve Detail bölümleri bulunmaktadır.</p>
+
+<p><img src="/assets/images/pashapospanel/StockOverview.png" alt="StockOverview" /></p>
+
+<p>Tablonun üst kısmında ürünleri daha kolay bulabilmek için çeşitli filtreleme seçenekleri yer almaktadır. Product Tag, Product Category ve Product Name gibi filtreler kullanılarak istenilen ürünlere daha hızlı ulaşılabilir.</p>
+
+<p>Tablonun yanında ise Stock Action bölümü bulunmaktadır. Bu bölüm üzerinden Stock Out, Stock In, Transfer, Sayım ve Sayım Geçmişi gibi stok işlemleri gerçekleştirilebilir.</p>
+
+<p><img src="/assets/images/pashapospanel/filterandaction.png" alt="filterandaction" /></p>
+
+<h3 id="stock-in">Stock In</h3>
+
+<p>Stok miktarını artırmak, yani yeni bir ürün alımı gerçekleştirmek için Stock In işlemi kullanılır. Stock In seçeneğine tıklandığında öncelikle Select Template ekranı açılır. Bu ekranda daha önce kaydedilmiş stok alım şablonları listelenir. Kullanıcı, daha önce oluşturulmuş bir şablonu seçerek işlemi hızlı bir şekilde gerçekleştirebilir.</p>
+
+<p>Yeni bir stok alımı yapılacak ve kayıtlı şablonlardan biri kullanılmayacaksa, ekranın alt kısmında bulunan Stock In From Scratch seçeneği kullanılır. Bu seçenek, stok alım işlemini sıfırdan oluşturmayı sağlar.</p>
+
+<p><img src="/assets/images/pashapospanel/SaveTemplate.png" alt="SaveTemplate" /></p>
+
+<p>Stock In ekranında sol tarafta ürünlerin listelendiği bir tablo bulunmaktadır. Bu tabloda Product Name ve Current Stock bilgileri görüntülenirken, Piece alanına satın alınan ürün miktarı girilir. İstenirse ilgili ürün için Note alanına açıklama da eklenebilir.</p>
+
+<p>Ekranın sağ tarafındaki Save Stock Entries bölümünde ise stok alımının yapılacağı Location seçilir. Ardından alımın nedeni Reason alanından belirlenir. Gerekli görülmesi durumunda Note alanına ek bir açıklama girilebilir.</p>
+
+<p>Tüm bilgiler girildikten sonra Save butonuna basılarak stok alımı kaydedilir. Kaydedilen miktar, seçilen lokasyona eklenir ve Stock Overview bölümündeki mevcut stok miktarı buna göre güncellenir. Böylece satın alınan ürünler stoklara eklenmiş olur.</p>
+
+<p><img src="/assets/images/pashapospanel/StockInLogin.png" alt="StockInLogin" /></p>
+
+<h3 id="stock-out">Stock Out</h3>
+
+<p>Stock Out bölümünde, Stock In işlemine benzer bir ekran bulunmaktadır. Ancak bu işlemde ürünler stoğa eklenmek yerine mevcut stoktan düşülür.</p>
+
+<p>Ekranın sol tarafında ürünlerin listelendiği tablo yer alır. Stock Out işlemi yapılacak ürünler için ilgili miktarlar Piece alanına girilir. Böylece hangi üründen kaç adet stoktan düşüleceği belirlenir.</p>
+
+<p>Ekranın sağ tarafında ise Save Stock Entries bölümü bulunmaktadır. Burada, ürünlerin hangi Location üzerinden stoktan düşüleceği seçilir. Reason alanında ise stoktan düşme nedeni olarak iki seçenek sunulur: Zayi ve Kayıp. Yapılan işleme uygun neden seçildikten sonra istenirse Note alanına ek bir açıklama girilebilir.</p>
+
+<p>Gerekli bilgiler girildikten sonra Save butonuna basılarak işlem tamamlanır. Kaydedilen miktarlar ilgili lokasyonun stokundan düşülür ve Stock Overview bölümündeki stok miktarları buna göre güncellenir.</p>
+
+<p><img src="/assets/images/pashapospanel/StockOutLogin.png" alt="StockOutLogin" /></p>
+
+<h3 id="transfer">Transfer</h3>
+
+<p>Transfer bölümü, bir ürünün bir bar veya depodan başka bir bar ya da depoya aktarılması gerektiğinde kullanılır. Bu işlem sayesinde mevcut stok, bir lokasyondan başka bir lokasyona taşınabilir.</p>
+
+<p>Transfer ekranının sol tarafında ürünlerin listelendiği bir tablo bulunmaktadır. Transfer edilmek istenen ürün için ilgili alana kaç adet ürünün aktarılacağı girilir. Ardından ekranın ilgili bölümünden ürünün hangi bar veya depodan alınacağı ve hangi bar veya depoya aktarılacağı seçilir.</p>
+
+<p>Gerekli bilgiler girildikten sonra Save butonuna basılarak transfer işlemi tamamlanır. Transfer işlemi genel stok miktarını değiştirmez; yalnızca ürünün bulunduğu lokasyon değişir. Bu nedenle Shop Total değerinde herhangi bir azalma veya artış olmaz, yalnızca ilgili bar veya depoların stok miktarları arasında değişiklik gerçekleşir.</p>
+
+<p><img src="/assets/images/pashapospanel/TransferLogin.png" alt="TransferLogin" /></p>
+
+<h3 id="count">Count</h3>
+
+<p>Sayım bölümü, mevcut stokların fiziksel olarak kontrol edilmesi ve sistemde kayıtlı olan stok miktarlarıyla karşılaştırılması için kullanılır. Sayım sırasında elde bulunan gerçek ürün miktarları ilgili alanlara girilir.</p>
+
+<p>Sistem, girilen miktarları otomatik olarak mevcut stok miktarlarıyla karşılaştırır. Girilen miktar ile sistemde kayıtlı olan stok miktarı arasında bir fark olması durumunda, miktar fazla veya eksik olsa dahi ilgili ürün için kırmızı bir uyarı gösterilir. Böylece stok miktarındaki farklılıklar kolayca tespit edilebilir.</p>
+
+<p>Ayrıca her ürün için Note alanına açıklama eklenebilir. Sayım işlemi tamamlandıktan sonra Save butonuna basılarak kayıt oluşturulur. Eğer sayım ile stok arasında fark varsa save ederken sorar stock ile sayım arasında fark var yine de stock a uygulansın mı diye evet derseniz yeni sayım daki ürünler stock a işlenir. Kaydedilen sayım işlemleri daha sonra Count History bölümünden görüntülenebilir.</p>
+
+<p><img src="/assets/images/pashapospanel/StockSay%C4%B1mEkran%C4%B1.png" alt="StockSayımEkranı" /></p>
+
+<h3 id="count-history">Count History</h3>
+
+<p>Sayım işlemi tamamlanıp Save butonuna tıklandıktan sonra, yapılan sayım Count History bölümüne kaydedilir. Bu sayfada, daha önce gerçekleştirilen sayımların listelendiği bir tablo bulunmaktadır. Her sayım, tabloda ayrı bir satır olarak kayıt altına alınır.</p>
+
+<p><img src="/assets/images/pashapospanel/OrderHistory.png" alt="OrderHistory" /></p>
+
+<p>Her satırın en sağında bulunan Detail butonuna tıklandığında, ilgili sayımın detaylarını gösteren yeni bir tablo açılır. Bu tabloda ürün adları, sayım sonucunda tespit edilen miktar ve sayım öncesinde stokta bulunan beklenen miktar bilgileri yer alır. Bu sayede sayım sonucunda elde edilen miktar ile sistemde kayıtlı olan stok miktarı kolayca karşılaştırılabilir.</p>
+
+<p><img src="/assets/images/pashapospanel/DetayOrderHistory.png" alt="DetayOrderHistory" /></p>
+
+<h3 id="movements">Movements</h3>
+
+<p>Stock Management bölümünün başlangıcında yer alan Stock Overview tablosunda, ürünlerin bulunduğu lokasyonları gösteren sütunun hemen yanında Movement bölümü bulunmaktadır. Bu bölüm, ürünlerin stok hareketlerinin detaylı olarak takip edilmesini sağlar. Ürüne yapılan Stock In, Stock Out ve Transfer işlemlerinin tamamı bu bölüm üzerinden görüntülenebilir.</p>
+
+<p>Örneğin, EVE 120 S isimli sigara üzerinden ilerlediğimizde, bu ürüne ait tüm stok hareketlerini görebiliriz. Hareket geçmişinde 1 adet Stock Entry, 1 adet Stock Out ve 4 adet Transfer işlemi bulunmaktadır.</p>
+
+<p>İlk olarak Stock In işlemiyle üründen 1000 adet stoğa giriş yapılmıştır. Daha sonra Stock Out işlemi ile 20 adet ürün zayi olarak stoktan düşülmüştür. Ardından ürünün farklı barlara aktarılması için 2 transfer işlemi gerçekleştirilmiş ve her bir transferde 200 adet ürün ilgili barlara gönderilmiştir.</p>
+
+<p>Bu şekilde Movement bölümü üzerinden bir ürünün stoğa girişinden, stoktan çıkışına ve farklı lokasyonlara transfer edilmesine kadar gerçekleşen tüm stok hareketleri detaylı olarak takip edilebilir.</p>
+
+<p><img src="/assets/images/pashapospanel/Movements.png" alt="Movements" /></p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+  
+
+  
+
+
+        
+
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-updated" datetime="2026-08-20">August 20, 2026</time></p>
+
+
+      </footer>
+
+      
+
+      
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://github.com/RIDOTTODEV" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">&copy; 2026 <a href="http://localhost:4000">Ridotto Docs</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

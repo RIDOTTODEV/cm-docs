@@ -1,0 +1,560 @@
+
+
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.28.0 by Michael Rose
+  Copyright 2013-2026 Michael Rose - mademistakes.com | @mmistakes
+  Copyright 2024-2026 iBug - ibugone.com | @iBug
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+
+<!-- begin _includes/seo.html --><title>Settings - Ridotto Docs</title>
+<meta name="description" content="Ridotto Casino Management Sistemi Teknik ve yardım dökümanı">
+
+
+  <meta name="author" content="Support">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Ridotto Docs">
+<meta property="og:title" content="Settings">
+<meta property="og:url" content="http://localhost:4000/pashapospanel/Settings/">
+
+
+  <meta property="og:description" content="Ridotto Casino Management Sistemi Teknik ve yardım dökümanı">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/pashapospanel/Settings/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Ridotto Docs Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+<link rel="stylesheet" href="/assets/css/custom.css">
+
+<!-- Auto Image Zoom Script -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Create overlay element
+    const overlay = document.createElement('div');
+    overlay.className = 'image-overlay';
+    overlay.innerHTML = '<span class="close">&times;</span>';
+    document.body.appendChild(overlay);
+
+    // Add click event to all images in content
+    const images = document.querySelectorAll('.page__content img');
+    images.forEach(function(img) {
+        img.addEventListener('click', function() {
+            const clonedImg = img.cloneNode(true);
+            clonedImg.style.cursor = 'default';
+            
+            // Clear previous image and add new one
+            const existingImg = overlay.querySelector('img');
+            if (existingImg) {
+                existingImg.remove();
+            }
+            overlay.appendChild(clonedImg);
+            overlay.classList.add('active');
+        });
+    });
+
+    // Close overlay when clicking on it or close button
+    overlay.addEventListener('click', function(e) {
+        if (e.target === overlay || e.target.classList.contains('close')) {
+            overlay.classList.remove('active');
+        }
+    });
+
+    // Close overlay with ESC key
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            overlay.classList.remove('active');
+        }
+    });
+});
+</script>
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single" dir="ltr">
+    
+<nav class="skip-links" aria-label="Skip links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
+        
+        <a class="site-title" href="/">
+          Ridotto Docs
+          
+        </a>
+        <ul class="visible-links"></ul>
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+
+
+<div id="main" role="main">
+  
+
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+<nav class="nav__list">
+  
+<input id="ac-toc" name="accordion-toc" type="checkbox" />
+<label for="ac-toc">Toggle Menu</label>
+<ul class="nav__items">
+    
+      
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/ridotto/kurulum/"><span class="nav__sub-title">Ridotto</span></a>
+</summary>
+<ul>
+            
+<li><a href="/ridotto/kurulum/">Kurulum</a></li>
+            
+<li><a href="/ridotto/ozellikler/">Özellikler</a></li>
+            
+<li><a href="/ridotto/changegd/">Gün Değişimi</a></li>
+            
+<li><a href="/add-on/operations/customer-information/">Customer Information</a></li>
+            
+<li><a href="/add-on/operations/portfolio-management/">Portfolio Management</a></li>
+            
+<li><a href="/add-on/operations/blacklist-report/">Blacklist Report</a></li>
+            
+<li><a href="/add-on/operations/correction-infos-report/">Correction Infos Report</a></li>
+            
+<li><a href="/add-on/operations/player-lookup-audit-logs-report/">Player Lookup Audit Logs Report</a></li>
+            
+<li><a href="/add-on/guest-operations/hotel-guest-list/">Hotel Guest List</a></li>
+            
+<li><a href="/add-on/management-reports/active-floor-list/">Active Floor List</a></li>
+            
+<li><a href="/add-on/management-reports/active-floor-info/">Active Floor Info</a></li>
+            
+<li><a href="/add-on/management-reports/call-report/">Call Report</a></li>
+            
+<li><a href="/add-on/management-reports/player-win-loss-analysis/">Player Win Loss Analysis</a></li>
+            
+<li><a href="/add-on/pit/floor-result/">Floor Result</a></li>
+            
+<li><a href="/add-on/reports/player-lg-result/">Player LG Result</a></li>
+            
+<li><a href="/add-on/reports/time-in-out-report-by-player/">Time In-Out Report by Player</a></li>
+            
+<li><a href="/add-on/reports/time-in-out-report/">Time In-Out Report</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/add-on/cage-operations/"><span class="nav__sub-title">Add On</span></a>
+</summary>
+<ul>
+            
+<li><a href="/add-on/cage-operations/">Cage Operations</a></li>
+            
+<li><a href="/add-on/player-operations/">Player Operations</a></li>
+            
+<li><a href="/add-on/in-out-report/">In-out Report</a></li>
+            
+<li><a href="/add-on/in-out-filtered-report/">In-out Filtered Report</a></li>
+            
+<li><a href="/add-on/in-out-detailed-inout-report/">In-out Detailed In/Out Report</a></li>
+            
+<li><a href="/add-on/in-out-detailed-net-report/">In-out Detailed Net Report</a></li>
+            
+<li><a href="/add-on/in-out-net-cash-summary-report/">In-out Net Cash Summary Report</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/pashaposkiosk/login/"><span class="nav__sub-title">Pasha POS Kiosk</span></a>
+</summary>
+<ul>
+            
+<li><a href="/pashaposkiosk/login/">login</a></li>
+            
+<li><a href="/pashaposkiosk/ozellikler/">Özellikler</a></li>
+            
+<li><a href="/pashaposkiosk/neworder/">NewOrder</a></li>
+            
+<li><a href="/pashaposkiosk/orderspage/">OrdersPage</a></li>
+            
+<li><a href="/pashaposkiosk/settings/">Settings</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" open>
+<summary>
+<a href="/pashapospanel/ozellikler/"><span class="nav__sub-title">Pasha POS Panel</span></a>
+</summary>
+<ul>
+            
+<li><a href="/pashapospanel/ozellikler/">Özellikler</a></li>
+            
+<li><a href="/pashapospanel/orders/">Orders</a></li>
+            
+<li><a href="/pashapospanel/stockmanagement/">Stock Management</a></li>
+            
+<li><a href="/pashapospanel/Reports/">Reports</a></li>
+            
+<li><a href="/pashapospanel/ProductDefinitions/">Product Definitions</a></li>
+            
+<li><a href="/pashapospanel/Definitions/">Definitions</a></li>
+            
+<li><a href="/pashapospanel/Settings/" class="active">Settings</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/pashakaptanpanel/ozellikler/"><span class="nav__sub-title">Pasha Kaptan Panel</span></a>
+</summary>
+<ul>
+            
+<li><a href="/pashakaptanpanel/ozellikler/">Özellikler</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/registrationapp/ozellikler/"><span class="nav__sub-title">Registration App</span></a>
+</summary>
+<ul>
+            
+<li><a href="/registrationapp/ozellikler/">Özellikler</a></li>
+            
+<li><a href="/registrationapp/check-in/">Check-In</a></li>
+            
+<li><a href="/registrationapp/carddesk-sign-in/">Carddesk Sign-In</a></li>
+            
+<li><a href="/registrationapp/search/">Search</a></li>
+            
+<li><a href="/registrationapp/adminpanel/">Admin Panel</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+<li>
+          
+            
+<details class="nav__collapsible" >
+<summary>
+<a href="/checkinkioskapp/ozellikler/"><span class="nav__sub-title">Check-in Kiosk App</span></a>
+</summary>
+<ul>
+            
+<li><a href="/checkinkioskapp/ozellikler/">Özellikler</a></li>
+            
+<li><a href="/checkinkioskapp/idle-page/">Idle Page</a></li>
+            
+<li><a href="/checkinkioskapp/greetings-page/">Greetings Page</a></li>
+            
+<li><a href="/checkinkioskapp/missing-document-page/">Missing Document Page</a></li>
+            
+<li><a href="/checkinkioskapp/blacklist-page/">BlackList Page</a></li>
+            
+</ul>
+</details>
+          
+</li>
+      
+    
+</ul>
+</nav>
+    
+  
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Settings">
+    
+    
+    <meta itemprop="dateModified" content="2026-08-19T10:36:34+03:00">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/pashapospanel/Settings/" itemprop="url">Settings
+</a>
+          </h1>
+          
+
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc" aria-label="Table of contents">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#settings">Settings</a><ul><li><a href="#email-settings">Email Settings</a></li><li><a href="#other-settings">Other Settings</a></li></ul></li></ul>
+            </nav>
+          </aside>
+        
+        <h2 id="settings">Settings</h2>
+
+<p>Bu sayfa, Pasha POS Panel uygulamasına ait genel ayarların yönetildiği bölümdür. Ayarlar kendi içerisinde Email Settings ve Other Settings olmak üzere iki ana bölüme ayrılmıştır.</p>
+
+<h3 id="email-settings">Email Settings</h3>
+
+<p>Bu bölüm, sistemin e-posta gönderimi için kullandığı temel e-posta ayarlarının yönetildiği alandır. Burada e-posta adresi, SMTP Host, şifre ve port gibi bağlantı bilgileri tanımlanır. Bu ayarlar, sistemin e-posta servisleriyle doğru şekilde iletişim kurabilmesi için kullanılır.</p>
+
+<p><img src="/assets/images/pashapospanel/EmailSettings.png" alt="EmailSettings" /></p>
+
+<h3 id="other-settings">Other Settings</h3>
+
+<p><strong>Other Settings</strong> bölümü, sistemin daha detaylı ve genel ayarlarının yönetildiği bölümdür. Bu bölümde farklı sistem ve kullanıcı işlemleriyle ilgili çeşitli ayarlar bulunmaktadır.</p>
+
+<ul>
+  <li>
+    <p><strong>Gaming Date Turn Hour:</strong> Sistemde bir günün hangi saatte değişeceğini belirler. Örneğin saat <strong>07:00</strong> olarak ayarlanmışsa, yeni gün gece 00:00’da değil, sabah 07:00’de başlar. Bu nedenle 00:00–07:00 arasındaki işlemler önceki gaming date’e dahil edilir.</p>
+  </li>
+  <li>
+    <p><strong>Attendant Order Delete Password:</strong> Terminal uygulamasında bulunan <strong>Restore</strong> işlemleri ile bir siparişin silinebilmesi için gereken şifredir. Siparişlerin silinmesi veya geri alınması gibi işlemler için yetkili kullanıcıların şifre girmesi gerekir.</p>
+  </li>
+  <li>
+    <p><strong>Inspector Order Delete Password:</strong> Inspector kullanıcılarının sipariş silme işlemlerinde kullanacağı şifre burada belirlenir.</p>
+  </li>
+  <li>
+    <p><strong>Ridotto API URL:</strong> Ridotto API bağlantısında kullanılan URL bilgisinin yönetildiği alandır. API adresi değiştiğinde buradan güncellenebilir.</p>
+  </li>
+  <li>
+    <p><strong>Ridotto API User:</strong> Ridotto API bağlantısı için kullanılan kullanıcı bilgilerinin girildiği alandır.</p>
+  </li>
+  <li>
+    <p><strong>Ridotto API Password:</strong> Ridotto API bağlantısında kullanılan şifrenin tanımlandığı alandır.</p>
+  </li>
+  <li>
+    <p><strong>Assist API URL:</strong> Assist API bağlantısında kullanılan URL bilgisinin yönetildiği alandır. URL değişiklikleri bu bölümden yapılabilir.</p>
+  </li>
+  <li>
+    <p><strong>Inspector Terminal UUID:</strong> İnspector un hangi terminali kullanacağını belirler</p>
+  </li>
+  <li>
+    <p><strong>Attendant Terminal UUID:</strong> Attendant un hangi terminali kullanacağını belirler</p>
+  </li>
+</ul>
+
+<p>Bu bölümde bulunan URL, kullanıcı adı ve şifre gibi bağlantı bilgileri, ilgili servislerin sistem tarafından doğru şekilde kullanılabilmesi için kontrol edilir ve gerektiğinde güncellenebilir.</p>
+
+<p><img src="/assets/images/pashapospanel/OtherSettings.png" alt="OtherSettings" /></p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+  
+
+  
+
+
+        
+
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-updated" datetime="2026-08-19">August 19, 2026</time></p>
+
+
+      </footer>
+
+      
+
+      
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://github.com/RIDOTTODEV" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">&copy; 2026 <a href="http://localhost:4000">Ridotto Docs</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

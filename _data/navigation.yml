@@ -58,36 +58,42 @@ docs:
         url: /add-on/in-out-net-cash-summary-report/
 
   - title: "Pasha POS Kiosk"
-    url: /RubyPosApp/
+    url: /pashaposkiosk/
     children:
       - title: "login"
-        url: /RubyPosApp/login/
+        url: /pashaposkiosk/login/
       - title: "Özellikler"
-        url: /RubyPosApp/ozellikler/
+        url: /pashaposkiosk/ozellikler/
       - title: "NewOrder"
-        url: /RubyPosApp/neworder/
+        url: /pashaposkiosk/neworder/
       - title: "OrdersPage"
-        url: /RubyPosApp/orderspage/
+        url: /pashaposkiosk/orderspage/
       - title: "Settings"
-        url: /RubyPosApp/settings/
+        url: /pashaposkiosk/settings/
 
   - title: "Pasha POS Panel"
-    url: /RubyPosPanel/
+    url: /pashapospanel/
     children:
       - title: "Özellikler"
-        url: /RubyPosPanel/ozellikler/  
+        url: /pashapospanel/ozellikler/  
       - title : "Orders"
-        url : /RubyPosPanel/orders/
+        url : /pashapospanel/orders/
       - title : "Stock Management"
-        url : /RubyPosPanel/StockManagement/
+        url : /pashapospanel/stockmanagement/  
       - title: "Reports"
-        url: /RubyPosPanel/Reports/
+        url: /pashapospanel/Reports/
       - title: "Product Definitions"
-        url: /RubyPosPanel/ProductDefinitions/
+        url: /pashapospanel/ProductDefinitions/
       - title : "Definitions"
-        url : /RubyPosPanel/Definitions/
+        url : /pashapospanel/Definitions/
       - title : "Settings"
-        url : /RubyPosPanel/Settings/
+        url : /pashapospanel/Settings/
+
+  - title: "Pasha Kaptan Panel"
+    url: /pashakaptanpanel/
+    children:
+      - title: "Özellikler"
+        url: /pashakaptanpanel/ozellikler/
 
   - title: "Registration App"
     url: /registrationapp/
